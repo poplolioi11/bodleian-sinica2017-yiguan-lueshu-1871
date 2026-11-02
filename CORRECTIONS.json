@@ -1,0 +1,4099 @@
+{
+  "schema": "sinica2017-public-corrections/1",
+  "dataset_id": "bodleian-sinica2017",
+  "base_version": "0.1.0",
+  "result_version": "0.2.0",
+  "base_doi": "10.5281/zenodo.23874194",
+  "base_book_sha256": "0db3b4637eb68fea9f12ad264a3cca7c711fc76ece9de0a5bcc22f8ba855c99f",
+  "changes": [
+    {
+      "unit_id": "p00-c02",
+      "reason": "大題四字逐字回圖；田在各上為畧。 本處新增細裁確認：左部人形下有干及獨立口框，為舍部，右為官；據本處筆畫改舘，非全域換字。",
+      "source": {
+        "frame_id": "f02",
+        "physical_page_id": "p00",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/8708c428-8c6d-4279-ba04-f532666c3a67.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8708c428-8c6d-4279-ba04-f532666c3a67/full/3000,/0/default.jpg",
+        "image_sha256": "ba772168e87cf9824a2998935eb87e423de26beede5418f470e612078d46d8de",
+        "unit_id": "p00-c02",
+        "bbox": null
+      },
+      "before": "醫館畧述",
+      "after": "醫舘畧述",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p00-c03",
+      "reason": "本輪明列為／爲後再看，姓名中該字上部為爪形長撇及分點，不是為的單點起筆，改爲；柯、樑、校訂及醫士均保留。這是後續裁定，未回寫上一輪固定報告。",
+      "source": {
+        "frame_id": "f02",
+        "physical_page_id": "p00",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/8708c428-8c6d-4279-ba04-f532666c3a67.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8708c428-8c6d-4279-ba04-f532666c3a67/full/3000,/0/default.jpg",
+        "image_sha256": "ba772168e87cf9824a2998935eb87e423de26beede5418f470e612078d46d8de",
+        "unit_id": "p00-c03",
+        "bbox": null
+      },
+      "before": "大美國醫士柯為樑校訂",
+      "after": "大美國醫士柯爲樑校訂",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 6,
+          "base_end": 7,
+          "result_start": 6,
+          "result_end": 7,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p01-c05",
+      "reason": "生後字上方爪形可辨，本處改爲，沒有由其他頁全域置換。",
+      "source": {
+        "frame_id": "f02",
+        "physical_page_id": "p01",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/8708c428-8c6d-4279-ba04-f532666c3a67.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8708c428-8c6d-4279-ba04-f532666c3a67/full/3000,/0/default.jpg",
+        "image_sha256": "ba772168e87cf9824a2998935eb87e423de26beede5418f470e612078d46d8de",
+        "unit_id": "p01-c05",
+        "bbox": null
+      },
+      "before": "獨子耶穌降生為世之救主亦惟救人之靈魂得",
+      "after": "獨子耶穌降生爲世之救主亦惟救人之靈魂得",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 6,
+          "base_end": 7,
+          "result_start": 6,
+          "result_end": 7,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p01-printed-page-number",
+      "reason": "母圖左書口下方有一條獨立短橫及右收筆，對應原印一；初錄null改一。",
+      "source": {
+        "frame_id": "f02",
+        "physical_page_id": "p01",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/8708c428-8c6d-4279-ba04-f532666c3a67.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8708c428-8c6d-4279-ba04-f532666c3a67/full/3000,/0/default.jpg",
+        "image_sha256": "ba772168e87cf9824a2998935eb87e423de26beede5418f470e612078d46d8de",
+        "unit_id": "p01-printed-page-number",
+        "bbox": null
+      },
+      "before": null,
+      "after": "一",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 0,
+          "base_end": 0,
+          "result_start": 0,
+          "result_end": 1,
+          "before": "",
+          "after": "一"
+        }
+      ],
+      "field": "printed_page_number"
+    },
+    {
+      "unit_id": "p02-c04",
+      "reason": "不過後字左部為示旁，頂部兩橫與下撇點配置可見，無衣旁的末撇捺；改祛。",
+      "source": {
+        "frame_id": "f03",
+        "physical_page_id": "p02",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/76c9bfe5-5617-472c-89e2-c98f11de1e5d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/76c9bfe5-5617-472c-89e2-c98f11de1e5d/full/3000,/0/default.jpg",
+        "image_sha256": "750c1c0606a0d2f1b35fd705bdd1cd308e37c3b80adabc479402af5ffa0c79e3",
+        "unit_id": "p02-c04",
+        "bbox": null
+      },
+      "before": "之功用不過袪病之源併少助氣力而已況吾人",
+      "after": "之功用不過祛病之源併少助氣力而已況吾人",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 5,
+          "base_end": 6,
+          "result_start": 5,
+          "result_end": 6,
+          "before": "袪",
+          "after": "祛"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p02-running-title",
+      "reason": "右書口可見田在各上，保留畧；外側部分沿書口受裁，記完整字形限制。 本面書口第二字左人、干、口清楚構成舍，據此改舘；右官部缺筆仍另記。",
+      "source": {
+        "frame_id": "f03",
+        "physical_page_id": "p02",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/76c9bfe5-5617-472c-89e2-c98f11de1e5d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/76c9bfe5-5617-472c-89e2-c98f11de1e5d/full/3000,/0/default.jpg",
+        "image_sha256": "750c1c0606a0d2f1b35fd705bdd1cd308e37c3b80adabc479402af5ffa0c79e3",
+        "unit_id": "p02-running-title",
+        "bbox": null
+      },
+      "before": "醫館畧述",
+      "after": "醫舘畧述",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "running_title"
+    },
+    {
+      "unit_id": "p03-c01",
+      "reason": "本欄以後字上爪形分筆可見，改爲；其餘依本欄原圖保留。",
+      "source": {
+        "frame_id": "f03",
+        "physical_page_id": "p03",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/76c9bfe5-5617-472c-89e2-c98f11de1e5d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/76c9bfe5-5617-472c-89e2-c98f11de1e5d/full/3000,/0/default.jpg",
+        "image_sha256": "750c1c0606a0d2f1b35fd705bdd1cd308e37c3b80adabc479402af5ffa0c79e3",
+        "unit_id": "p03-c01",
+        "bbox": null
+      },
+      "before": "愛人之心以為心得教友捐助資斧航海來閩或",
+      "after": "愛人之心以爲心得教友捐助資斧航海來閩或",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 5,
+          "base_end": 6,
+          "result_start": 5,
+          "result_end": 6,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p03-c03",
+      "reason": " 本處新增細裁確認：左部人形下有干及獨立口框，為舍部，右為官；據本處筆畫改舘，非全域換字。",
+      "source": {
+        "frame_id": "f03",
+        "physical_page_id": "p03",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/76c9bfe5-5617-472c-89e2-c98f11de1e5d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/76c9bfe5-5617-472c-89e2-c98f11de1e5d/full/3000,/0/default.jpg",
+        "image_sha256": "750c1c0606a0d2f1b35fd705bdd1cd308e37c3b80adabc479402af5ffa0c79e3",
+        "unit_id": "p03-c03",
+        "bbox": null
+      },
+      "before": "醫館濟人困苦俾身體得享世上之平康無非存",
+      "after": "醫舘濟人困苦俾身體得享世上之平康無非存",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p03-c05",
+      "reason": "末段是後字另行裁圖，上爪形可見，改爲。",
+      "source": {
+        "frame_id": "f03",
+        "physical_page_id": "p03",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/76c9bfe5-5617-472c-89e2-c98f11de1e5d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/76c9bfe5-5617-472c-89e2-c98f11de1e5d/full/3000,/0/default.jpg",
+        "image_sha256": "750c1c0606a0d2f1b35fd705bdd1cd308e37c3b80adabc479402af5ffa0c79e3",
+        "unit_id": "p03-c05",
+        "bbox": null
+      },
+      "before": "簡端俾閱是書者得明吾意焉是為序",
+      "after": "簡端俾閱是書者得明吾意焉是爲序",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 13,
+          "base_end": 14,
+          "result_start": 13,
+          "result_end": 14,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p03-c06",
+      "reason": "姓名中的字另裁見爪形，改爲。日期與署名在同一直欄，中間留白清楚；保留初錄單一unit及U+3000空白，不按獨立稿拆成兩欄。醫生與題頁醫士各按本處保留。",
+      "source": {
+        "frame_id": "f03",
+        "physical_page_id": "p03",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/76c9bfe5-5617-472c-89e2-c98f11de1e5d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/76c9bfe5-5617-472c-89e2-c98f11de1e5d/full/3000,/0/default.jpg",
+        "image_sha256": "750c1c0606a0d2f1b35fd705bdd1cd308e37c3b80adabc479402af5ffa0c79e3",
+        "unit_id": "p03-c06",
+        "bbox": null
+      },
+      "before": "同治十年孟冬之月　大美國醫生柯為樑謹誌",
+      "after": "同治十年孟冬之月　大美國醫生柯爲樑謹誌",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 15,
+          "base_end": 16,
+          "result_start": 15,
+          "result_end": 16,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p04-running-title",
+      "reason": "本面原印書題的第三字，田明確置各上，採畧；不採獨立稿略。右邊書口有裁切，但上下結構可分。 本面書口第二字左人、干、口清楚構成舍，據此改舘；右官部缺筆仍另記。",
+      "source": {
+        "frame_id": "f04",
+        "physical_page_id": "p04",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/9a934fcc-c455-4f8e-b6f0-8311cc196ee9.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9a934fcc-c455-4f8e-b6f0-8311cc196ee9/full/3000,/0/default.jpg",
+        "image_sha256": "f907b1eef194ed18d8d2b2ab4df2b03f93857b4b0691e494dd61f71c42e09518",
+        "unit_id": "p04-running-title",
+        "bbox": null
+      },
+      "before": "醫館畧述",
+      "after": "醫舘畧述",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "running_title"
+    },
+    {
+      "unit_id": "p06-c07",
+      "reason": "官、師、士、商後各有分離斜點，保留。籌後字左上匕、下矢，右欠，支持欵而非款；末字以右下另有斜點，兩稿皆漏，本輪據圖加、。",
+      "source": {
+        "frame_id": "f05",
+        "physical_page_id": "p06",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0aa7a834-9a53-45e0-90a2-c7587fb73f93.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0aa7a834-9a53-45e0-90a2-c7587fb73f93/full/3000,/0/default.jpg",
+        "image_sha256": "c0b1711ba0d617464b806aaf3b5465498858948f4c067602352446b928cdc7be",
+        "unit_id": "p06-c07",
+        "bbox": null
+      },
+      "before": "有醫官、牧師、教士、行商、在廣州共立總院、籌款以",
+      "after": "有醫官、牧師、教士、行商、在廣州共立總院、籌欵以、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 22,
+          "base_end": 23,
+          "result_start": 22,
+          "result_end": 23,
+          "before": "款",
+          "after": "欵"
+        },
+        {
+          "operation": "insert",
+          "base_start": 24,
+          "base_end": 24,
+          "result_start": 24,
+          "result_end": 25,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p06-running-title",
+      "reason": "第三字田在各上，保留畧；書口外側受裁，記構形不完整限制。 本面書口第二字左人、干、口清楚構成舍，據此改舘；右官部缺筆仍另記。",
+      "source": {
+        "frame_id": "f05",
+        "physical_page_id": "p06",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0aa7a834-9a53-45e0-90a2-c7587fb73f93.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0aa7a834-9a53-45e0-90a2-c7587fb73f93/full/3000,/0/default.jpg",
+        "image_sha256": "c0b1711ba0d617464b806aaf3b5465498858948f4c067602352446b928cdc7be",
+        "unit_id": "p06-running-title",
+        "bbox": null
+      },
+      "before": "醫館畧述",
+      "after": "醫舘畧述",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "running_title"
+    },
+    {
+      "unit_id": "p07-c01",
+      "reason": "必後字上爪形分筆，改爲；維後字內兩個入形與外框，為兩而非爾。道光十九年照見。",
+      "source": {
+        "frame_id": "f05",
+        "physical_page_id": "p07",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0aa7a834-9a53-45e0-90a2-c7587fb73f93.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0aa7a834-9a53-45e0-90a2-c7587fb73f93/full/3000,/0/default.jpg",
+        "image_sha256": "c0b1711ba0d617464b806aaf3b5465498858948f4c067602352446b928cdc7be",
+        "unit_id": "p07-c01",
+        "bbox": null
+      },
+      "before": "必為助成美舉、道光十九年、有合信維爾先生來",
+      "after": "必爲助成美舉、道光十九年、有合信維兩先生來",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "為",
+          "after": "爲"
+        },
+        {
+          "operation": "replace",
+          "base_start": 17,
+          "base_end": 18,
+          "result_start": 17,
+          "result_end": 18,
+          "before": "爾",
+          "after": "兩"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p07-c02",
+      "reason": "游後字厂內為並列木，頂部各是直畫接橫而非禾的斜撇，讀歴；本處單獨改，不全域替換歷。",
+      "source": {
+        "frame_id": "f05",
+        "physical_page_id": "p07",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0aa7a834-9a53-45e0-90a2-c7587fb73f93.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0aa7a834-9a53-45e0-90a2-c7587fb73f93/full/3000,/0/default.jpg",
+        "image_sha256": "c0b1711ba0d617464b806aaf3b5465498858948f4c067602352446b928cdc7be",
+        "unit_id": "p07-c02",
+        "bbox": null
+      },
+      "before": "中國、合信游歷香港澳門廣州上海等處、計診無",
+      "after": "中國、合信游歴香港澳門廣州上海等處、計診無",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 6,
+          "base_end": 7,
+          "result_start": 6,
+          "result_end": 7,
+          "before": "歷",
+          "after": "歴"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p07-c05",
+      "reason": " 本處新增細裁確認：左部人形下有干及獨立口框，為舍部，右為官；據本處筆畫改舘，非全域換字。",
+      "source": {
+        "frame_id": "f05",
+        "physical_page_id": "p07",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0aa7a834-9a53-45e0-90a2-c7587fb73f93.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0aa7a834-9a53-45e0-90a2-c7587fb73f93/full/3000,/0/default.jpg",
+        "image_sha256": "c0b1711ba0d617464b806aaf3b5465498858948f4c067602352446b928cdc7be",
+        "unit_id": "p07-c05",
+        "bbox": null
+      },
+      "before": "維在舟山設院、又往上海設仁濟醫館、經辦十二",
+      "after": "維在舟山設院、又往上海設仁濟醫舘、經辦十二",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 15,
+          "base_end": 16,
+          "result_start": 15,
+          "result_end": 16,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p07-c07",
+      "reason": "惠州後為人名地名旁直線，非斜點；邇來與北之間亦無獨立斜點，刪初錄來後、。",
+      "source": {
+        "frame_id": "f05",
+        "physical_page_id": "p07",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0aa7a834-9a53-45e0-90a2-c7587fb73f93.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0aa7a834-9a53-45e0-90a2-c7587fb73f93/full/3000,/0/default.jpg",
+        "image_sha256": "c0b1711ba0d617464b806aaf3b5465498858948f4c067602352446b928cdc7be",
+        "unit_id": "p07-c07",
+        "bbox": null
+      },
+      "before": "福州寧波廣東之惠州有醫院、邇來、北京潮州廣",
+      "after": "福州寧波廣東之惠州有醫院、邇來北京潮州廣",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "delete",
+          "base_start": 15,
+          "base_end": 16,
+          "result_start": 15,
+          "result_end": 15,
+          "before": "、",
+          "after": ""
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p08-c01",
+      "reason": "首字另裁，上爪形與下方折筆可辨，改爲；其餘本欄及點位照見。",
+      "source": {
+        "frame_id": "f06",
+        "physical_page_id": "p08",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0da267a5-f048-4965-ac33-3665f5732012.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0da267a5-f048-4965-ac33-3665f5732012/full/3000,/0/default.jpg",
+        "image_sha256": "5f8fa2987f2ba36a4a7e2326f6217629713d9744e2fa2d249907ca3e7bf51248",
+        "unit_id": "p08-c01",
+        "bbox": null
+      },
+      "before": "為廣州總院首、又另在廣州府分設兩院、又於佛",
+      "after": "爲廣州總院首、又另在廣州府分設兩院、又於佛",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 0,
+          "base_end": 1,
+          "result_start": 0,
+          "result_end": 1,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p08-c03",
+      "reason": "拔右下獨立斜點清楚，初錄漏點，補、。 本處新增細裁確認：左部人形下有干及獨立口框，為舍部，右為官；據本處筆畫改舘，非全域換字。",
+      "source": {
+        "frame_id": "f06",
+        "physical_page_id": "p08",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0da267a5-f048-4965-ac33-3665f5732012.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0da267a5-f048-4965-ac33-3665f5732012/full/3000,/0/default.jpg",
+        "image_sha256": "5f8fa2987f2ba36a4a7e2326f6217629713d9744e2fa2d249907ca3e7bf51248",
+        "unit_id": "p08-c03",
+        "bbox": null
+      },
+      "before": "過海至英京入醫館依例考試、已獲簡拔現幫理",
+      "after": "過海至英京入醫舘依例考試、已獲簡拔、現幫理",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 7,
+          "base_end": 8,
+          "result_start": 7,
+          "result_end": 8,
+          "before": "館",
+          "after": "舘"
+        },
+        {
+          "operation": "insert",
+          "base_start": 17,
+          "base_end": 17,
+          "result_start": 17,
+          "result_end": 18,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p08-c07",
+      "reason": "山後獨立斜點可辨，保留；姓名及梅塢山旁直線不另編句讀。 本處新增細裁確認：左部人形下有干及獨立口框，為舍部，右為官；據本處筆畫改舘，非全域換字。",
+      "source": {
+        "frame_id": "f06",
+        "physical_page_id": "p08",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0da267a5-f048-4965-ac33-3665f5732012.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0da267a5-f048-4965-ac33-3665f5732012/full/3000,/0/default.jpg",
+        "image_sha256": "5f8fa2987f2ba36a4a7e2326f6217629713d9744e2fa2d249907ca3e7bf51248",
+        "unit_id": "p08-c07",
+        "bbox": null
+      },
+      "before": "司徒醫生、於南臺梅塢山、設立醫館、施醫送藥、嗣",
+      "after": "司徒醫生、於南臺梅塢山、設立醫舘、施醫送藥、嗣",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 15,
+          "base_end": 16,
+          "result_start": 15,
+          "result_end": 16,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p08-running-title",
+      "reason": "本面田在各上，保留畧；外側沿折頁受裁，記字形缺筆。 本面書口第二字左人、干、口清楚構成舍，據此改舘；右官部缺筆仍另記。",
+      "source": {
+        "frame_id": "f06",
+        "physical_page_id": "p08",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0da267a5-f048-4965-ac33-3665f5732012.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0da267a5-f048-4965-ac33-3665f5732012/full/3000,/0/default.jpg",
+        "image_sha256": "5f8fa2987f2ba36a4a7e2326f6217629713d9744e2fa2d249907ca3e7bf51248",
+        "unit_id": "p08-running-title",
+        "bbox": null
+      },
+      "before": "醫館畧述",
+      "after": "醫舘畧述",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "running_title"
+    },
+    {
+      "unit_id": "p09-c01",
+      "reason": "同治八年冬間逐字看圖，保留。 本處新增細裁確認：左部人形下有干及獨立口框，為舍部，右為官；據本處筆畫改舘，非全域換字。",
+      "source": {
+        "frame_id": "f06",
+        "physical_page_id": "p09",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0da267a5-f048-4965-ac33-3665f5732012.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0da267a5-f048-4965-ac33-3665f5732012/full/3000,/0/default.jpg",
+        "image_sha256": "5f8fa2987f2ba36a4a7e2326f6217629713d9744e2fa2d249907ca3e7bf51248",
+        "unit_id": "p09-c01",
+        "bbox": null
+      },
+      "before": "濟世醫館、就診者良多、余自同治八年冬間、航海",
+      "after": "濟世醫舘、就診者良多、余自同治八年冬間、航海",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 3,
+          "base_end": 4,
+          "result_start": 3,
+          "result_end": 4,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p09-c03",
+      "reason": "堂右下有分離斜點，保留初錄堂、。 本處新增細裁確認：左部人形下有干及獨立口框，為舍部，右為官；據本處筆畫改舘，非全域換字。",
+      "source": {
+        "frame_id": "f06",
+        "physical_page_id": "p09",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0da267a5-f048-4965-ac33-3665f5732012.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0da267a5-f048-4965-ac33-3665f5732012/full/3000,/0/default.jpg",
+        "image_sha256": "5f8fa2987f2ba36a4a7e2326f6217629713d9744e2fa2d249907ca3e7bf51248",
+        "unit_id": "p09-c03",
+        "bbox": null
+      },
+      "before": "福音堂、設立施濟醫館、送診施藥、不取分文、男女",
+      "after": "福音堂、設立施濟醫舘、送診施藥、不取分文、男女",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 9,
+          "base_end": 10,
+          "result_start": 9,
+          "result_end": 10,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p09-c05",
+      "reason": "真位置字上匕形、左側長筆及目下分筆，改眞；偽位置右部上爪形，改僞。辨的中間細筆仍有辨／辧疑義，暫保留辨；舖左下口，不改鋪。",
+      "source": {
+        "frame_id": "f06",
+        "physical_page_id": "p09",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0da267a5-f048-4965-ac33-3665f5732012.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0da267a5-f048-4965-ac33-3665f5732012/full/3000,/0/default.jpg",
+        "image_sha256": "5f8fa2987f2ba36a4a7e2326f6217629713d9744e2fa2d249907ca3e7bf51248",
+        "unit_id": "p09-c05",
+        "bbox": null
+      },
+      "before": "不分、真偽莫辨、故於舊年秋間、移在南臺舖前頂",
+      "after": "不分、眞僞莫辨、故於舊年秋間、移在南臺舖前頂",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 3,
+          "base_end": 5,
+          "result_start": 3,
+          "result_end": 5,
+          "before": "真偽",
+          "after": "眞僞"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p09-c07",
+      "reason": "此欄另裁真偽兩字，眞上匕及僞右上爪形可見，分別改眞僞；不由c05全域套用。",
+      "source": {
+        "frame_id": "f06",
+        "physical_page_id": "p09",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0da267a5-f048-4965-ac33-3665f5732012.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0da267a5-f048-4965-ac33-3665f5732012/full/3000,/0/default.jpg",
+        "image_sha256": "5f8fa2987f2ba36a4a7e2326f6217629713d9744e2fa2d249907ca3e7bf51248",
+        "unit_id": "p09-c07",
+        "bbox": null
+      },
+      "before": "文、復診驗明原票免取、蓋所以分輕重、別真偽、而",
+      "after": "文、復診驗明原票免取、蓋所以分輕重、別眞僞、而",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 19,
+          "base_end": 21,
+          "result_start": 19,
+          "result_end": 21,
+          "before": "真偽",
+          "after": "眞僞"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p09-c08",
+      "reason": "意見與雜間未見獨立斜點，見右下彎鉤屬字本身，保留初錄無點。 本處新增細裁確認：左部人形下有干及獨立口框，為舍部，右為官；據本處筆畫改舘，非全域換字。",
+      "source": {
+        "frame_id": "f06",
+        "physical_page_id": "p09",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0da267a5-f048-4965-ac33-3665f5732012.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0da267a5-f048-4965-ac33-3665f5732012/full/3000,/0/default.jpg",
+        "image_sha256": "5f8fa2987f2ba36a4a7e2326f6217629713d9744e2fa2d249907ca3e7bf51248",
+        "unit_id": "p09-c08",
+        "bbox": null
+      },
+      "before": "非有沽名射利之意見雜於中也、計自設館以來、",
+      "after": "非有沽名射利之意見雜於中也、計自設舘以來、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 17,
+          "base_end": 18,
+          "result_start": 17,
+          "result_end": 18,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p10-c01",
+      "reason": "脹前字上部一虫、中部並列兩虫，下方另有皿的底橫和內豎，改蠱；不是僅三虫的蟲。末字疒內雍的構件可辨，保留癰。三千號按原印保留。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "unit_id": "p10-c01",
+        "bbox": null
+      },
+      "before": "共診過約三千號、其中有肉瘤、石淋、蟲脹、盲眼、癰",
+      "after": "共診過約三千號、其中有肉瘤、石淋、蠱脹、盲眼、癰",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 17,
+          "base_end": 18,
+          "result_start": 17,
+          "result_end": 18,
+          "before": "蟲",
+          "after": "蠱"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p10-c02",
+      "reason": "囊右下有獨立斜點，補錄；烟右下也有斜點，保留。洋前字中間兩橫與垂豎清楚，但更下方有淡薄斷續橫痕，不能完全排除生的第三橫；牛／生保持未解，正文暫存牛，沒有採語義判斷。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "unit_id": "p10-c02",
+        "bbox": null
+      },
+      "before": "疽、大腎囊內外痔、補嘴、救食牛洋烟、諸症、或用刀",
+      "after": "疽、大腎囊、內外痔、補嘴、救食牛洋烟、諸症、或用刀",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 5,
+          "base_end": 5,
+          "result_start": 5,
+          "result_end": 6,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p10-c04",
+      "reason": "五後字可見爪形，改爲；到後字左部人形覆干及下口，右為官，改舘，本處另裁核對。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "unit_id": "p10-c04",
+        "bbox": null
+      },
+      "before": "二禮拜五為期、諸大症到館就醫者、概隨到隨醫、",
+      "after": "二禮拜五爲期、諸大症到舘就醫者、概隨到隨醫、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 4,
+          "base_end": 5,
+          "result_start": 4,
+          "result_end": 5,
+          "before": "為",
+          "after": "爲"
+        },
+        {
+          "operation": "replace",
+          "base_start": 11,
+          "base_end": 12,
+          "result_start": 11,
+          "result_end": 12,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p10-c05",
+      "reason": "症右下有分離斜點，補錄；本後字左為舍部，改舘。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "unit_id": "p10-c05",
+        "bbox": null
+      },
+      "before": "並無延擱、所以令輕重等症各從其便、本館醫法、",
+      "after": "並無延擱、所以令輕重等症、各從其便、本舘醫法、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 12,
+          "base_end": 12,
+          "result_start": 12,
+          "result_end": 13,
+          "before": "",
+          "after": "、"
+        },
+        {
+          "operation": "replace",
+          "base_start": 18,
+          "base_end": 19,
+          "result_start": 19,
+          "result_end": 20,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p10-c06",
+      "reason": "題字田在各上，保留畧；圖右下獨立斜點清楚，補錄。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "unit_id": "p10-c06",
+        "bbox": null
+      },
+      "before": "不欲秘而弗宣、茲編所載、畧將病者形圖繪出數",
+      "after": "不欲秘而弗宣、茲編所載、畧將病者形圖、繪出數",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 18,
+          "base_end": 18,
+          "result_start": 18,
+          "result_end": 19,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p10-c08",
+      "reason": "廣後字上爪與下四點可分，改爲。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "unit_id": "p10-c08",
+        "bbox": null
+      },
+      "before": "廣為傳佈云爾、",
+      "after": "廣爲傳佈云爾、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p10-c09",
+      "reason": "姓名本處另裁，爪形清楚，改爲；醫生、柯、樑、又誌均照原印。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "unit_id": "p10-c09",
+        "bbox": null
+      },
+      "before": "醫生柯為樑又誌",
+      "after": "醫生柯爲樑又誌",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 3,
+          "base_end": 4,
+          "result_start": 3,
+          "result_end": 4,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p10-running-title",
+      "reason": "本面書口第二字左部人、干、口可分，改舘；第三字田在各上，為畧，不採獨立稿節。書口右半仍缺，記完整構形限制。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "unit_id": "p10-running-title",
+        "bbox": null
+      },
+      "before": "醫館畧述",
+      "after": "醫舘畧述",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "running_title"
+    },
+    {
+      "unit_id": "p11-c02",
+      "reason": "家右下有分離斜點，補錄；其餘照原欄。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p11",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "unit_id": "p11-c02",
+        "bbox": null
+      },
+      "before": "大凡西國醫家若有片長足錄、則筆之於書、以垂",
+      "after": "大凡西國醫家、若有片長足錄、則筆之於書、以垂",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 6,
+          "base_end": 6,
+          "result_start": 6,
+          "result_end": 7,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p11-c04",
+      "reason": "藥右下有分離斜點，補錄。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p11",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "unit_id": "p11-c04",
+        "bbox": null
+      },
+      "before": "聚集、其中將妙手靈藥集成一書、精益求精、卽如",
+      "after": "聚集、其中將妙手靈藥、集成一書、精益求精、卽如",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 10,
+          "base_end": 10,
+          "result_start": 10,
+          "result_end": 11,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p11-c05",
+      "reason": "蛇後字上爪形可辨，改爲；三百按原字形讀取。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p11",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "unit_id": "p11-c05",
+        "bbox": null
+      },
+      "before": "西國三百年前、醫家亦用毒蛇為藥、且畏用刀法、",
+      "after": "西國三百年前、醫家亦用毒蛇爲藥、且畏用刀法、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 13,
+          "base_end": 14,
+          "result_start": 13,
+          "result_end": 14,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p11-c06",
+      "reason": "書前字君在左、羊在右，改群；不是君上羊下的羣。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p11",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "unit_id": "p11-c06",
+        "bbox": null
+      },
+      "before": "後因博採羣書、有靈藥比毒蛇奏效更速者、用刀",
+      "after": "後因博採群書、有靈藥比毒蛇奏效更速者、用刀",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 4,
+          "base_end": 5,
+          "result_start": 4,
+          "result_end": 5,
+          "before": "羣",
+          "after": "群"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p11-c08",
+      "reason": "家右下有分離斜點，補錄。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p11",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "unit_id": "p11-c08",
+        "bbox": null
+      },
+      "before": "時各醫家亦曾秘密奇方妙法、故亦有世醫名目、",
+      "after": "時各醫家、亦曾秘密奇方妙法、故亦有世醫名目、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 4,
+          "base_end": 4,
+          "result_start": 4,
+          "result_end": 5,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p12-c07",
+      "reason": "人後未見斜點；下字爪形可辨改爲。師與徒右下各有獨立斜點，師後原已錄，補徒後。七人按原印。",
+      "source": {
+        "frame_id": "f08",
+        "physical_page_id": "p12",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2972df1d-bcd3-469a-aae0-7765e9085b24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2972df1d-bcd3-469a-aae0-7765e9085b24/full/3000,/0/default.jpg",
+        "image_sha256": "85c3ae839b3e52b72c016b2e65db5c478d0380d692065e36719a2f97184fec4b",
+        "unit_id": "p12-c07",
+        "bbox": null
+      },
+      "before": "七人為師、朝夕訓誨生徒習讀藥書、使其留心講",
+      "after": "七人爲師、朝夕訓誨生徒、習讀藥書、使其留心講",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 2,
+          "base_end": 3,
+          "result_start": 2,
+          "result_end": 3,
+          "before": "為",
+          "after": "爲"
+        },
+        {
+          "operation": "insert",
+          "base_start": 11,
+          "base_end": 11,
+          "result_start": 11,
+          "result_end": 12,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p12-c08",
+      "reason": "門內為日框及一中橫，保留間，不採閒；兩處館字各裁圖，左部均人形覆干及下口，分別改舘。",
+      "source": {
+        "frame_id": "f08",
+        "physical_page_id": "p12",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2972df1d-bcd3-469a-aae0-7765e9085b24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2972df1d-bcd3-469a-aae0-7765e9085b24/full/3000,/0/default.jpg",
+        "image_sha256": "85c3ae839b3e52b72c016b2e65db5c478d0380d692065e36719a2f97184fec4b",
+        "unit_id": "p12-c08",
+        "bbox": null
+      },
+      "before": "究、得間常往大醫館、看老醫生診視、館中就醫者、",
+      "after": "究、得間常往大醫舘、看老醫生診視、舘中就醫者、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 8,
+          "base_end": 9,
+          "result_start": 8,
+          "result_end": 9,
+          "before": "館",
+          "after": "舘"
+        },
+        {
+          "operation": "replace",
+          "base_start": 17,
+          "base_end": 18,
+          "result_start": 17,
+          "result_end": 18,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p12-running-title",
+      "reason": "第二字左舍部完整可分，改舘；第三字田在各上，保留畧，不採節。右邊受折緣遮裁，整題仍記缺筆限制。",
+      "source": {
+        "frame_id": "f08",
+        "physical_page_id": "p12",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2972df1d-bcd3-469a-aae0-7765e9085b24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2972df1d-bcd3-469a-aae0-7765e9085b24/full/3000,/0/default.jpg",
+        "image_sha256": "85c3ae839b3e52b72c016b2e65db5c478d0380d692065e36719a2f97184fec4b",
+        "unit_id": "p12-running-title",
+        "bbox": null
+      },
+      "before": "醫館畧述",
+      "after": "醫舘畧述",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "館",
+          "after": "舘"
+        }
+      ],
+      "field": "running_title"
+    },
+    {
+      "unit_id": "p13-c01",
+      "reason": "下與百之間共五條橫畫，依兩字格分為二、三，非六橫的一二三；斬犯後有刻點。",
+      "source": {
+        "frame_id": "f08",
+        "physical_page_id": "p13",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2972df1d-bcd3-469a-aae0-7765e9085b24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2972df1d-bcd3-469a-aae0-7765e9085b24/full/3000,/0/default.jpg",
+        "image_sha256": "85c3ae839b3e52b72c016b2e65db5c478d0380d692065e36719a2f97184fec4b",
+        "unit_id": "p13-c01",
+        "bbox": null
+      },
+      "before": "不下一二三百人、各証皆備、西國有例、凡有斬犯決",
+      "after": "不下二三百人、各証皆備、西國有例、凡有斬犯、決",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "delete",
+          "base_start": 2,
+          "base_end": 3,
+          "result_start": 2,
+          "result_end": 2,
+          "before": "一",
+          "after": ""
+        },
+        {
+          "operation": "insert",
+          "base_start": 22,
+          "base_end": 22,
+          "result_start": 21,
+          "result_end": 22,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p13-c03",
+      "reason": "月旁右為𠂢的細長分筆，非永，改脉為脈。",
+      "source": {
+        "frame_id": "f08",
+        "physical_page_id": "p13",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2972df1d-bcd3-469a-aae0-7765e9085b24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2972df1d-bcd3-469a-aae0-7765e9085b24/full/3000,/0/default.jpg",
+        "image_sha256": "85c3ae839b3e52b72c016b2e65db5c478d0380d692065e36719a2f97184fec4b",
+        "unit_id": "p13-c03",
+        "bbox": null
+      },
+      "before": "血管、何處脉絡、老師常加指示、學童默識融會、現",
+      "after": "血管、何處脈絡、老師常加指示、學童默識融會、現",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 5,
+          "base_end": 6,
+          "result_start": 5,
+          "result_end": 6,
+          "before": "脉",
+          "after": "脈"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p13-c04",
+      "reason": "聞之後未見刻點；國人後見點，補一點。",
+      "source": {
+        "frame_id": "f08",
+        "physical_page_id": "p13",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2972df1d-bcd3-469a-aae0-7765e9085b24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2972df1d-bcd3-469a-aae0-7765e9085b24/full/3000,/0/default.jpg",
+        "image_sha256": "85c3ae839b3e52b72c016b2e65db5c478d0380d692065e36719a2f97184fec4b",
+        "unit_id": "p13-c04",
+        "bbox": null
+      },
+      "before": "聞之西國新文紙、日本國人學習西國醫法、其大",
+      "after": "聞之西國新文紙、日本國人、學習西國醫法、其大",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 12,
+          "base_end": 12,
+          "result_start": 12,
+          "result_end": 13,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p13-c06",
+      "reason": "言旁右為工中兩人，支持誣，非平；言與西之間未見點。",
+      "source": {
+        "frame_id": "f08",
+        "physical_page_id": "p13",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2972df1d-bcd3-469a-aae0-7765e9085b24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2972df1d-bcd3-469a-aae0-7765e9085b24/full/3000,/0/default.jpg",
+        "image_sha256": "85c3ae839b3e52b72c016b2e65db5c478d0380d692065e36719a2f97184fec4b",
+        "unit_id": "p13-c06",
+        "bbox": null
+      },
+      "before": "日本國醫生二十多人、不遑暇食、前天津評言西",
+      "after": "日本國醫生二十多人、不遑暇食、前天津誣言西",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 18,
+          "base_end": 19,
+          "result_start": 18,
+          "result_end": 19,
+          "before": "評",
+          "after": "誣"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p13-c07",
+      "reason": "尸仍為尸；旣左有白形上撇及下匕，依本處改旣，不做全域替換。",
+      "source": {
+        "frame_id": "f08",
+        "physical_page_id": "p13",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2972df1d-bcd3-469a-aae0-7765e9085b24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2972df1d-bcd3-469a-aae0-7765e9085b24/full/3000,/0/default.jpg",
+        "image_sha256": "85c3ae839b3e52b72c016b2e65db5c478d0380d692065e36719a2f97184fec4b",
+        "unit_id": "p13-c07",
+        "bbox": null
+      },
+      "before": "人用死人頭腦眼睛製藥、不知夫人既死、將其尸",
+      "after": "人用死人頭腦眼睛製藥、不知夫人旣死、將其尸",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 15,
+          "base_end": 16,
+          "result_start": 15,
+          "result_end": 16,
+          "before": "既",
+          "after": "旣"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p14-c01",
+      "reason": "頴左上匕、下示可見，非禾；悟後未見點。",
+      "source": {
+        "frame_id": "f09",
+        "physical_page_id": "p14",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/acf7cca3-55e1-436d-b1e4-0e442efb1c82.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/acf7cca3-55e1-436d-b1e4-0e442efb1c82/full/3000,/0/default.jpg",
+        "image_sha256": "5e34aa78e20e226c5e74809a1535991530def6b77c3464490ba831d53dc293a3",
+        "unit_id": "p14-c01",
+        "bbox": null
+      },
+      "before": "乃誣言之至、如是學童在院肄業、其天資穎悟異",
+      "after": "乃誣言之至、如是學童在院肄業、其天資頴悟異",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 18,
+          "base_end": 19,
+          "result_start": 18,
+          "result_end": 19,
+          "before": "穎",
+          "after": "頴"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p14-c02",
+      "reason": "三的三橫清楚，年後見點；常者後無點，末字木旁右交叉為校，不是核。",
+      "source": {
+        "frame_id": "f09",
+        "physical_page_id": "p14",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/acf7cca3-55e1-436d-b1e4-0e442efb1c82.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/acf7cca3-55e1-436d-b1e4-0e442efb1c82/full/3000,/0/default.jpg",
+        "image_sha256": "5e34aa78e20e226c5e74809a1535991530def6b77c3464490ba831d53dc293a3",
+        "unit_id": "p14-c02",
+        "bbox": null
+      },
+      "before": "常者三年六年者居多、本院老師、定日會同考校",
+      "after": "常者三年、六年者居多、本院老師、定日會同考校",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 4,
+          "base_end": 4,
+          "result_start": 4,
+          "result_end": 5,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p14-c03",
+      "reason": "童、症、詢後可見刻點；某症與應、治與需間未見點，依圖刪補。",
+      "source": {
+        "frame_id": "f09",
+        "physical_page_id": "p14",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/acf7cca3-55e1-436d-b1e4-0e442efb1c82.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/acf7cca3-55e1-436d-b1e4-0e442efb1c82/full/3000,/0/default.jpg",
+        "image_sha256": "5e34aa78e20e226c5e74809a1535991530def6b77c3464490ba831d53dc293a3",
+        "unit_id": "p14-c03",
+        "bbox": null
+      },
+      "before": "學童、內外各症逐細查詢、如某症應若何醫治、需",
+      "after": "學童、內外各症、逐細查詢、如某症應若何醫治需",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 7,
+          "base_end": 7,
+          "result_start": 7,
+          "result_end": 8,
+          "before": "",
+          "after": "、"
+        },
+        {
+          "operation": "delete",
+          "base_start": 20,
+          "base_end": 21,
+          "result_start": 21,
+          "result_end": 21,
+          "before": "、",
+          "after": ""
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p14-c06",
+      "reason": "位於原第六欄，末拔後可見點；獨讀同文位在第五欄。",
+      "source": {
+        "frame_id": "f09",
+        "physical_page_id": "p14",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/acf7cca3-55e1-436d-b1e4-0e442efb1c82.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/acf7cca3-55e1-436d-b1e4-0e442efb1c82/full/3000,/0/default.jpg",
+        "image_sha256": "5e34aa78e20e226c5e74809a1535991530def6b77c3464490ba831d53dc293a3",
+        "unit_id": "p14-c06",
+        "bbox": null
+      },
+      "before": "理醫事、依西國之例、醫生非經本書院老師簡拔",
+      "after": "理醫事、依西國之例、醫生非經本書院老師簡拔、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 21,
+          "base_end": 21,
+          "result_start": 21,
+          "result_end": 22,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p15-c03",
+      "reason": "者後有點；强右上為口而非厶，按本處字形錄强。",
+      "source": {
+        "frame_id": "f09",
+        "physical_page_id": "p15",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/acf7cca3-55e1-436d-b1e4-0e442efb1c82.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/acf7cca3-55e1-436d-b1e4-0e442efb1c82/full/3000,/0/default.jpg",
+        "image_sha256": "5e34aa78e20e226c5e74809a1535991530def6b77c3464490ba831d53dc293a3",
+        "unit_id": "p15-c03",
+        "bbox": null
+      },
+      "before": "夫瘧疾者亘古以來、何國蔑有、無論老幼強弱、皆",
+      "after": "夫瘧疾者、亘古以來、何國蔑有、無論老幼强弱、皆",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 4,
+          "base_end": 4,
+          "result_start": 4,
+          "result_end": 5,
+          "before": "",
+          "after": "、"
+        },
+        {
+          "operation": "replace",
+          "base_start": 18,
+          "base_end": 19,
+          "result_start": 19,
+          "result_end": 20,
+          "before": "強",
+          "after": "强"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p15-c05",
+      "reason": "者後確有刻點，補錄；其他點位依圖。",
+      "source": {
+        "frame_id": "f09",
+        "physical_page_id": "p15",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/acf7cca3-55e1-436d-b1e4-0e442efb1c82.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/acf7cca3-55e1-436d-b1e4-0e442efb1c82/full/3000,/0/default.jpg",
+        "image_sha256": "5e34aa78e20e226c5e74809a1535991530def6b77c3464490ba831d53dc293a3",
+        "unit_id": "p15-c05",
+        "bbox": null
+      },
+      "before": "兩日不等、照常而論、先冷後熱、而有熱無冷者間",
+      "after": "兩日不等、照常而論、先冷後熱、而有熱無冷者、間",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 21,
+          "base_end": 21,
+          "result_start": 21,
+          "result_end": 22,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p15-c07",
+      "reason": "脅為上劦下月；驗後有點；脈右為𠂢，非永。",
+      "source": {
+        "frame_id": "f09",
+        "physical_page_id": "p15",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/acf7cca3-55e1-436d-b1e4-0e442efb1c82.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/acf7cca3-55e1-436d-b1e4-0e442efb1c82/full/3000,/0/default.jpg",
+        "image_sha256": "5e34aa78e20e226c5e74809a1535991530def6b77c3464490ba831d53dc293a3",
+        "unit_id": "p15-c07",
+        "bbox": null
+      },
+      "before": "脅下較驗反見極熱、此乃奇異之症、大抵脉微而",
+      "after": "脅下較驗、反見極熱、此乃奇異之症、大抵脈微而",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 4,
+          "base_end": 4,
+          "result_start": 4,
+          "result_end": 5,
+          "before": "",
+          "after": "、"
+        },
+        {
+          "operation": "replace",
+          "base_start": 18,
+          "base_end": 19,
+          "result_start": 19,
+          "result_end": 20,
+          "before": "脉",
+          "after": "脈"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p16-c06",
+      "reason": "無與如之間有刻點，補錄。",
+      "source": {
+        "frame_id": "f10",
+        "physical_page_id": "p16",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0d51d131-6cfe-461c-8489-6bc680e3544f.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d51d131-6cfe-461c-8489-6bc680e3544f/full/3000,/0/default.jpg",
+        "image_sha256": "fa0be9cad6f9bc3885c58924848016e30f99f48d715470f74a603295d1aeb9a2",
+        "unit_id": "p16-c06",
+        "bbox": null
+      },
+      "before": "之人、有此瘧疾、上一層則無如或易地而居、則亦",
+      "after": "之人、有此瘧疾、上一層則無、如或易地而居、則亦",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 13,
+          "base_end": 13,
+          "result_start": 13,
+          "result_end": 14,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p16-c08",
+      "reason": "更後直接易，不見容；受、藥、五後有點，者後無點，按圖調整。",
+      "source": {
+        "frame_id": "f10",
+        "physical_page_id": "p16",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0d51d131-6cfe-461c-8489-6bc680e3544f.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d51d131-6cfe-461c-8489-6bc680e3544f/full/3000,/0/default.jpg",
+        "image_sha256": "fa0be9cad6f9bc3885c58924848016e30f99f48d715470f74a603295d1aeb9a2",
+        "unit_id": "p16-c08",
+        "bbox": null
+      },
+      "before": "比日裏更易受、昔時曾用別藥醫痊者、十只四五、",
+      "after": "比日裏更易受、昔時曾用別藥、醫痊者十只四五、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 13,
+          "base_end": 13,
+          "result_start": 13,
+          "result_end": 14,
+          "before": "",
+          "after": "、"
+        },
+        {
+          "operation": "delete",
+          "base_start": 16,
+          "base_end": 17,
+          "result_start": 17,
+          "result_end": 17,
+          "before": "、",
+          "after": ""
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p17-c05",
+      "reason": "木在左、旣形在右，為左右配置概；非木置下的槩。",
+      "source": {
+        "frame_id": "f10",
+        "physical_page_id": "p17",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0d51d131-6cfe-461c-8489-6bc680e3544f.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d51d131-6cfe-461c-8489-6bc680e3544f/full/3000,/0/default.jpg",
+        "image_sha256": "fa0be9cad6f9bc3885c58924848016e30f99f48d715470f74a603295d1aeb9a2",
+        "unit_id": "p17-c05",
+        "bbox": null
+      },
+      "before": "亦少、現大槩普天下皆用、故其價昂貴、大凡受瘧",
+      "after": "亦少、現大概普天下皆用、故其價昂貴、大凡受瘧",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 5,
+          "base_end": 6,
+          "result_start": 5,
+          "result_end": 6,
+          "before": "槩",
+          "after": "概"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p18-c01",
+      "reason": "爲字上部可見爪形及下方折轉，依本處改爲。",
+      "source": {
+        "frame_id": "f11",
+        "physical_page_id": "p18",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0a3d70cc-52c9-45a6-9ad9-1d257c672815.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a3d70cc-52c9-45a6-9ad9-1d257c672815/full/3000,/0/default.jpg",
+        "image_sha256": "c87ad3d15802cd48c8279e800053885ddcca0588a9cdba36b0a1eb943d5c4bdd",
+        "unit_id": "p18-c01",
+        "bbox": null
+      },
+      "before": "輕重、總以藥力到時為度、可驗耳中有些混亂、卽",
+      "after": "輕重、總以藥力到時爲度、可驗耳中有些混亂、卽",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 9,
+          "base_end": 10,
+          "result_start": 9,
+          "result_end": 10,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p18-c06",
+      "reason": "木左、旣右，改概；原憑、價、分文及點位依圖保留。",
+      "source": {
+        "frame_id": "f11",
+        "physical_page_id": "p18",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0a3d70cc-52c9-45a6-9ad9-1d257c672815.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a3d70cc-52c9-45a6-9ad9-1d257c672815/full/3000,/0/default.jpg",
+        "image_sha256": "c87ad3d15802cd48c8279e800053885ddcca0588a9cdba36b0a1eb943d5c4bdd",
+        "unit_id": "p18-c06",
+        "bbox": null
+      },
+      "before": "槩憑原價、並無取利分文、",
+      "after": "概憑原價、並無取利分文、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 0,
+          "base_end": 1,
+          "result_start": 0,
+          "result_end": 1,
+          "before": "槩",
+          "after": "概"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p19-c01",
+      "reason": "金旁右為大加可，支持錡；第三字口區為嘔；不採鎡或鏑。",
+      "source": {
+        "frame_id": "f11",
+        "physical_page_id": "p19",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0a3d70cc-52c9-45a6-9ad9-1d257c672815.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a3d70cc-52c9-45a6-9ad9-1d257c672815/full/3000,/0/default.jpg",
+        "image_sha256": "c87ad3d15802cd48c8279e800053885ddcca0588a9cdba36b0a1eb943d5c4bdd",
+        "unit_id": "p19-c01",
+        "bbox": null
+      },
+      "before": "臥、務須及早救治、不可挨延、急服精鎡嘔散、",
+      "after": "臥、務須及早救治、不可挨延、急服精錡嘔散、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 17,
+          "base_end": 18,
+          "result_start": 17,
+          "result_end": 18,
+          "before": "鎡",
+          "after": "錡"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p19-c04",
+      "reason": "便後有刻點，補錄；胆為月旦，照原形保留，館不改舘；共救二十按圖。",
+      "source": {
+        "frame_id": "f11",
+        "physical_page_id": "p19",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0a3d70cc-52c9-45a6-9ad9-1d257c672815.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a3d70cc-52c9-45a6-9ad9-1d257c672815/full/3000,/0/default.jpg",
+        "image_sha256": "c87ad3d15802cd48c8279e800053885ddcca0588a9cdba36b0a1eb943d5c4bdd",
+        "unit_id": "p19-c04",
+        "bbox": null
+      },
+      "before": "如未便服胆礬亦可、余自開館以來、共救二十",
+      "after": "如未便、服胆礬亦可、余自開館以來、共救二十",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 3,
+          "base_end": 3,
+          "result_start": 3,
+          "result_end": 4,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p19-c10",
+      "reason": "爲的爪形上部明確；館字不改舘。",
+      "source": {
+        "frame_id": "f11",
+        "physical_page_id": "p19",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0a3d70cc-52c9-45a6-9ad9-1d257c672815.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a3d70cc-52c9-45a6-9ad9-1d257c672815/full/3000,/0/default.jpg",
+        "image_sha256": "c87ad3d15802cd48c8279e800053885ddcca0588a9cdba36b0a1eb943d5c4bdd",
+        "unit_id": "p19-c10",
+        "bbox": null
+      },
+      "before": "戒為要、本館製有斷癮靈藥、視癮輕重、多則十四",
+      "after": "戒爲要、本館製有斷癮靈藥、視癮輕重、多則十四",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p20-c02",
+      "reason": "住後為歇：右欠、左上日下勹內人，不是宀下宿；一元及烟具逐字核。",
+      "source": {
+        "frame_id": "f12",
+        "physical_page_id": "p20",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/068210e3-4cb2-4c37-8eda-774945dd34a9.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/068210e3-4cb2-4c37-8eda-774945dd34a9/full/3000,/0/default.jpg",
+        "image_sha256": "c5f843c68ef89a9473537e6d636fc94b584a33399ea3e568cbf9ce5a1ec3ee79",
+        "unit_id": "p20-c02",
+        "bbox": null
+      },
+      "before": "者、可到館住宿、先付洋銀一元、並將烟具付來、切",
+      "after": "者、可到館住歇、先付洋銀一元、並將烟具付來、切",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 6,
+          "base_end": 7,
+          "result_start": 6,
+          "result_end": 7,
+          "before": "宿",
+          "after": "歇"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p20-c04",
+      "reason": "上爪下折轉支持爲，按本字改，不全域正規化。",
+      "source": {
+        "frame_id": "f12",
+        "physical_page_id": "p20",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/068210e3-4cb2-4c37-8eda-774945dd34a9.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/068210e3-4cb2-4c37-8eda-774945dd34a9/full/3000,/0/default.jpg",
+        "image_sha256": "c5f843c68ef89a9473537e6d636fc94b584a33399ea3e568cbf9ce5a1ec3ee79",
+        "unit_id": "p20-c04",
+        "bbox": null
+      },
+      "before": "途而廢、則將此銀充為買藥之用、",
+      "after": "途而廢、則將此銀充爲買藥之用、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 9,
+          "base_end": 10,
+          "result_start": 9,
+          "result_end": 10,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p21-c07",
+      "reason": "爲上爪形依本處改；開後扌加妾是接，保留原刻，不依語意改腹。",
+      "source": {
+        "frame_id": "f12",
+        "physical_page_id": "p21",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/068210e3-4cb2-4c37-8eda-774945dd34a9.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/068210e3-4cb2-4c37-8eda-774945dd34a9/full/3000,/0/default.jpg",
+        "image_sha256": "c5f843c68ef89a9473537e6d636fc94b584a33399ea3e568cbf9ce5a1ec3ee79",
+        "unit_id": "p21-c07",
+        "bbox": null
+      },
+      "before": "母命最為緊要、有一開接之法、甚有奇效、其法西",
+      "after": "母命最爲緊要、有一開接之法、甚有奇效、其法西",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 3,
+          "base_end": 4,
+          "result_start": 3,
+          "result_end": 4,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p23-c02",
+      "reason": "本處金旁右是失形，錄鉄，非複雜鐵；其餘與點位保持。",
+      "source": {
+        "frame_id": "f13",
+        "physical_page_id": "p23",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/46ce711e-ead5-479b-afed-a7ecc9ecf714.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/46ce711e-ead5-479b-afed-a7ecc9ecf714/full/3000,/0/default.jpg",
+        "image_sha256": "c235bd6d892e04511a7c4d54688f9a3b3f6c4f01bcd6b04aaf3f2332e7316287",
+        "unit_id": "p23-c02",
+        "bbox": null
+      },
+      "before": "此疾內外藥俱無效驗、惟有常帶鐵碼、倘腸流下、",
+      "after": "此疾內外藥俱無效驗、惟有常帶鉄碼、倘腸流下、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 14,
+          "base_end": 15,
+          "result_start": 14,
+          "result_end": 15,
+          "before": "鐵",
+          "after": "鉄"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p23-c04",
+      "reason": "本處鉄右為失；價錢不同等逐字回圖，不推定價格。",
+      "source": {
+        "frame_id": "f13",
+        "physical_page_id": "p23",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/46ce711e-ead5-479b-afed-a7ecc9ecf714.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/46ce711e-ead5-479b-afed-a7ecc9ecf714/full/3000,/0/default.jpg",
+        "image_sha256": "c235bd6d892e04511a7c4d54688f9a3b3f6c4f01bcd6b04aaf3f2332e7316287",
+        "unit_id": "p23-c04",
+        "bbox": null
+      },
+      "before": "性命、鐵碼價錢不同、用時面議、如或小兒患此症",
+      "after": "性命、鉄碼價錢不同、用時面議、如或小兒患此症",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 3,
+          "base_end": 4,
+          "result_start": 3,
+          "result_end": 4,
+          "before": "鐵",
+          "after": "鉄"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p23-c05",
+      "reason": "看後為礻與見，支持視，非言蒦的護；本處鉄右為失。",
+      "source": {
+        "frame_id": "f13",
+        "physical_page_id": "p23",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/46ce711e-ead5-479b-afed-a7ecc9ecf714.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/46ce711e-ead5-479b-afed-a7ecc9ecf714/full/3000,/0/default.jpg",
+        "image_sha256": "c235bd6d892e04511a7c4d54688f9a3b3f6c4f01bcd6b04aaf3f2332e7316287",
+        "unit_id": "p23-c05",
+        "bbox": null
+      },
+      "before": "者、可到本館看視、如鐵碼未便、可先付番銀代寄",
+      "after": "者、可到本館看視、如鉄碼未便、可先付番銀代寄",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 10,
+          "base_end": 11,
+          "result_start": 10,
+          "result_end": 11,
+          "before": "鐵",
+          "after": "鉄"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p25-c03",
+      "reason": "首字頂端爪式分筆，逐處錄爲；末字水有中直與分叉，不是便。",
+      "source": {
+        "frame_id": "f14",
+        "physical_page_id": "p25",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b86cb4cc-0ddd-44b1-805e-c7b90249677f.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b86cb4cc-0ddd-44b1-805e-c7b90249677f/full/3000,/0/default.jpg",
+        "image_sha256": "1f7dfd407759ddf0fc584214389e7b6e61d1a4f6680386febf769c08daf12e79",
+        "unit_id": "p25-c03",
+        "bbox": null
+      },
+      "before": "為業、於舊年四月間、由瓦上跌下、腎囊傷重、小水",
+      "after": "爲業、於舊年四月間、由瓦上跌下、腎囊傷重、小水",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 0,
+          "base_end": 1,
+          "result_start": 0,
+          "result_end": 1,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p25-c08",
+      "reason": "姓後有原點；爲頂端爪式分筆，按本處改錄。",
+      "source": {
+        "frame_id": "f14",
+        "physical_page_id": "p25",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b86cb4cc-0ddd-44b1-805e-c7b90249677f.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b86cb4cc-0ddd-44b1-805e-c7b90249677f/full/3000,/0/default.jpg",
+        "image_sha256": "1f7dfd407759ddf0fc584214389e7b6e61d1a4f6680386febf769c08daf12e79",
+        "unit_id": "p25-c08",
+        "bbox": null
+      },
+      "before": "鄭姓、羅源縣人、年六十一歲、魚貨店為業、其溺管",
+      "after": "鄭姓、羅源縣人、年六十一歲、魚貨店爲業、其溺管",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 17,
+          "base_end": 18,
+          "result_start": 17,
+          "result_end": 18,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p26-c07",
+      "reason": "銀管後右側有獨立原點。",
+      "source": {
+        "frame_id": "f15",
+        "physical_page_id": "p26",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/99d3172b-acdd-497c-8107-a38eb922f701.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/99d3172b-acdd-497c-8107-a38eb922f701/full/3000,/0/default.jpg",
+        "image_sha256": "c762204f586e9f3b6b47b8b2729942e92e37ee0bacd6826c1d88ea205c489b77",
+        "unit_id": "p26-c07",
+        "bbox": null
+      },
+      "before": "時常自用銀管通入溺管、使小水不致再由腎囊",
+      "after": "時常自用銀管、通入溺管、使小水不致再由腎囊",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 6,
+          "base_end": 6,
+          "result_start": 6,
+          "result_end": 7,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p26-c08",
+      "reason": "去字後無原點，刪除原稿所補點。",
+      "source": {
+        "frame_id": "f15",
+        "physical_page_id": "p26",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/99d3172b-acdd-497c-8107-a38eb922f701.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/99d3172b-acdd-497c-8107-a38eb922f701/full/3000,/0/default.jpg",
+        "image_sha256": "c762204f586e9f3b6b47b8b2729942e92e37ee0bacd6826c1d88ea205c489b77",
+        "unit_id": "p26-c08",
+        "bbox": null
+      },
+      "before": "漏管流出、於五月間回籍而去、",
+      "after": "漏管流出、於五月間回籍而去",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "delete",
+          "base_start": 13,
+          "base_end": 14,
+          "result_start": 13,
+          "result_end": 13,
+          "before": "、",
+          "after": ""
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p27-c01",
+      "reason": "爲頂端爪式分筆，按本處刻形。",
+      "source": {
+        "frame_id": "f15",
+        "physical_page_id": "p27",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/99d3172b-acdd-497c-8107-a38eb922f701.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/99d3172b-acdd-497c-8107-a38eb922f701/full/3000,/0/default.jpg",
+        "image_sha256": "c762204f586e9f3b6b47b8b2729942e92e37ee0bacd6826c1d88ea205c489b77",
+        "unit_id": "p27-c01",
+        "bbox": null
+      },
+      "before": "陳姓長樂縣人、年三十餘歲、務農為業、溺管不通、",
+      "after": "陳姓長樂縣人、年三十餘歲、務農爲業、溺管不通、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 15,
+          "base_end": 16,
+          "result_start": 15,
+          "result_end": 16,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p27-c05",
+      "reason": "擬前頂部長橫清楚，是正而非止。",
+      "source": {
+        "frame_id": "f15",
+        "physical_page_id": "p27",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/99d3172b-acdd-497c-8107-a38eb922f701.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/99d3172b-acdd-497c-8107-a38eb922f701/full/3000,/0/default.jpg",
+        "image_sha256": "c762204f586e9f3b6b47b8b2729942e92e37ee0bacd6826c1d88ea205c489b77",
+        "unit_id": "p27-c05",
+        "bbox": null
+      },
+      "before": "利刀由腎囊下割開、止擬用藥醫治、惜其不終醫",
+      "after": "利刀由腎囊下割開、正擬用藥醫治、惜其不終醫",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 9,
+          "base_end": 10,
+          "result_start": 9,
+          "result_end": 10,
+          "before": "止",
+          "after": "正"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p27-c07",
+      "reason": "厨上為厂，無广頂點；爲按本處爪式頂部改錄。",
+      "source": {
+        "frame_id": "f15",
+        "physical_page_id": "p27",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/99d3172b-acdd-497c-8107-a38eb922f701.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/99d3172b-acdd-497c-8107-a38eb922f701/full/3000,/0/default.jpg",
+        "image_sha256": "c762204f586e9f3b6b47b8b2729942e92e37ee0bacd6826c1d88ea205c489b77",
+        "unit_id": "p27-c07",
+        "bbox": null
+      },
+      "before": "余姓泉州人、年三十五歲、官厨為業、其腎囊腫大、",
+      "after": "余姓泉州人、年三十五歲、官厨爲業、其腎囊腫大、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 14,
+          "base_end": 15,
+          "result_start": 14,
+          "result_end": 15,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p28-c01",
+      "reason": "後與症右側均有原點；兩稿各漏一點，依圖保留兩點。",
+      "source": {
+        "frame_id": "f16",
+        "physical_page_id": "p28",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/80f772d4-0154-4563-8aea-5bba0b6e190b.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/80f772d4-0154-4563-8aea-5bba0b6e190b/full/3000,/0/default.jpg",
+        "image_sha256": "a45c22453bbbeed692747003c70bf10a2313adbaefb9fce7b1b55ba52234ef10",
+        "unit_id": "p28-c01",
+        "bbox": null
+      },
+      "before": "館就醫、余診視後、面約此症必須用刀、危險之極、",
+      "after": "館就醫、余診視後、面約此症、必須用刀、危險之極、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "insert",
+          "base_start": 13,
+          "base_end": 13,
+          "result_start": 13,
+          "result_end": 14,
+          "before": "",
+          "after": "、"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p28-c02",
+      "reason": "碍右部日一寸，非疑；願後無原點。",
+      "source": {
+        "frame_id": "f16",
+        "physical_page_id": "p28",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/80f772d4-0154-4563-8aea-5bba0b6e190b.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/80f772d4-0154-4563-8aea-5bba0b6e190b/full/3000,/0/default.jpg",
+        "image_sha256": "a45c22453bbbeed692747003c70bf10a2313adbaefb9fce7b1b55ba52234ef10",
+        "unit_id": "p28-c02",
+        "bbox": null
+      },
+      "before": "不特痊否不能預定、且恐有碍性命、經渠心願、用",
+      "after": "不特痊否不能預定、且恐有碍性命、經渠心願用",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "delete",
+          "base_start": 20,
+          "base_end": 21,
+          "result_start": 20,
+          "result_end": 20,
+          "before": "、",
+          "after": ""
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p29-c02",
+      "reason": "長後是弋形加二橫，錄弍；尺後同具斜鉤而左有三橫，錄弎，不是參或貳。保留初錄圖上標籤在前、下圖標籤在後的分層順序。",
+      "source": {
+        "frame_id": "f16",
+        "physical_page_id": "p29",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/80f772d4-0154-4563-8aea-5bba0b6e190b.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/80f772d4-0154-4563-8aea-5bba0b6e190b/full/3000,/0/default.jpg",
+        "image_sha256": "a45c22453bbbeed692747003c70bf10a2313adbaefb9fce7b1b55ba52234ef10",
+        "unit_id": "p29-c02",
+        "bbox": null
+      },
+      "before": "未割圖長弍尺參寸闊八寸",
+      "after": "未割圖長弍尺弎寸闊八寸",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 6,
+          "base_end": 7,
+          "result_start": 6,
+          "result_end": 7,
+          "before": "參",
+          "after": "弎"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p31-c01",
+      "reason": "錫後字金旁右為青，上多橫中直、下月形清楚，非甫亦非鐵；爲頂部爪形分筆。",
+      "source": {
+        "frame_id": "f17",
+        "physical_page_id": "p31",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/acf99cf8-0109-4bbe-a5df-ad88385b925a.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/acf99cf8-0109-4bbe-a5df-ad88385b925a/full/3000,/0/default.jpg",
+        "image_sha256": "a24adf63c879b47dcb504937734fd5a78f3bb00a03848bb9ed43350a0ae89e10",
+        "unit_id": "p31-c01",
+        "bbox": null
+      },
+      "before": "柯姓漳州人、年二十八歲、打錫鋪為業、自少時上",
+      "after": "柯姓漳州人、年二十八歲、打錫錆爲業、自少時上",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 14,
+          "base_end": 16,
+          "result_start": 14,
+          "result_end": 16,
+          "before": "鋪為",
+          "after": "錆爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p31-c04",
+      "reason": "爲按本處頂端爪形分筆改錄。",
+      "source": {
+        "frame_id": "f17",
+        "physical_page_id": "p31",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/acf99cf8-0109-4bbe-a5df-ad88385b925a.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/acf99cf8-0109-4bbe-a5df-ad88385b925a/full/3000,/0/default.jpg",
+        "image_sha256": "a24adf63c879b47dcb504937734fd5a78f3bb00a03848bb9ed43350a0ae89e10",
+        "unit_id": "p31-c04",
+        "bbox": null
+      },
+      "before": "延平府人、年四十餘歲、挑水為業、眼蓋內外翻轉、",
+      "after": "延平府人、年四十餘歲、挑水爲業、眼蓋內外翻轉、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 13,
+          "base_end": 14,
+          "result_start": 13,
+          "result_end": 14,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p32-c02",
+      "reason": "爲按本處爪形頂部；脚右部去卩可辨，保留脚而非腳；纔右部毚形，保留。",
+      "source": {
+        "frame_id": "f18",
+        "physical_page_id": "p32",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f70d8b95-6e7e-48a3-8889-4524c3dc0329.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f70d8b95-6e7e-48a3-8889-4524c3dc0329/full/3000,/0/default.jpg",
+        "image_sha256": "afc3e989a163ea49020f06753f58ff066ce551236c137725259eeb79c250de89",
+        "unit_id": "p32-c02",
+        "bbox": null
+      },
+      "before": "為業、脚面潰爛、纔起時有小瘤紅腫、後潰爛有茶",
+      "after": "爲業、脚面潰爛、纔起時有小瘤紅腫、後潰爛有茶",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 0,
+          "base_end": 1,
+          "result_start": 0,
+          "result_end": 1,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p32-c04",
+      "reason": "去後未見原點，兩稿同加的點一併去除。",
+      "source": {
+        "frame_id": "f18",
+        "physical_page_id": "p32",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f70d8b95-6e7e-48a3-8889-4524c3dc0329.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f70d8b95-6e7e-48a3-8889-4524c3dc0329/full/3000,/0/default.jpg",
+        "image_sha256": "afc3e989a163ea49020f06753f58ff066ce551236c137725259eeb79c250de89",
+        "unit_id": "p32-c04",
+        "bbox": null
+      },
+      "before": "零全愈而去、",
+      "after": "零全愈而去",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "delete",
+          "base_start": 5,
+          "base_end": 6,
+          "result_start": 5,
+          "result_end": 5,
+          "before": "、",
+          "after": ""
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p32-c05",
+      "reason": "饒左旁食可辨；爲按本處爪形頂部。",
+      "source": {
+        "frame_id": "f18",
+        "physical_page_id": "p32",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f70d8b95-6e7e-48a3-8889-4524c3dc0329.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f70d8b95-6e7e-48a3-8889-4524c3dc0329/full/3000,/0/default.jpg",
+        "image_sha256": "afc3e989a163ea49020f06753f58ff066ce551236c137725259eeb79c250de89",
+        "unit_id": "p32-c05",
+        "bbox": null
+      },
+      "before": "饒姓南臺人、年二十餘歲、兵丁為業、在南較場操",
+      "after": "饒姓南臺人、年二十餘歲、兵丁爲業、在南較場操",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 14,
+          "base_end": 15,
+          "result_start": 14,
+          "result_end": 15,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p33-c01",
+      "reason": "爲頂端爪式分筆；脚右部去卩，保留脚。",
+      "source": {
+        "frame_id": "f18",
+        "physical_page_id": "p33",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f70d8b95-6e7e-48a3-8889-4524c3dc0329.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f70d8b95-6e7e-48a3-8889-4524c3dc0329/full/3000,/0/default.jpg",
+        "image_sha256": "afc3e989a163ea49020f06753f58ff066ce551236c137725259eeb79c250de89",
+        "unit_id": "p33-c01",
+        "bbox": null
+      },
+      "before": "黃姓閩清縣人、年三十餘歲、耕田為業、右邊脚面、",
+      "after": "黃姓閩清縣人、年三十餘歲、耕田爲業、右邊脚面、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 15,
+          "base_end": 16,
+          "result_start": 15,
+          "result_end": 16,
+          "before": "為",
+          "after": "爲"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p33-c02",
+      "reason": "担後字左扌、右亞的凹入結構清楚，為掗；非丑的扭，也非木旁椏。不因文意改字。",
+      "source": {
+        "frame_id": "f18",
+        "physical_page_id": "p33",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f70d8b95-6e7e-48a3-8889-4524c3dc0329.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f70d8b95-6e7e-48a3-8889-4524c3dc0329/full/3000,/0/default.jpg",
+        "image_sha256": "afc3e989a163ea49020f06753f58ff066ce551236c137725259eeb79c250de89",
+        "unit_id": "p33-c02",
+        "bbox": null
+      },
+      "before": "因挑担扭傷、腫痛之至、過三四月紅腫上至大腿、",
+      "after": "因挑担掗傷、腫痛之至、過三四月紅腫上至大腿、",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 3,
+          "base_end": 4,
+          "result_start": 3,
+          "result_end": 4,
+          "before": "扭",
+          "after": "掗"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p33-c07",
+      "reason": "愈後無原點，按圖刪除。",
+      "source": {
+        "frame_id": "f18",
+        "physical_page_id": "p33",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f70d8b95-6e7e-48a3-8889-4524c3dc0329.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f70d8b95-6e7e-48a3-8889-4524c3dc0329/full/3000,/0/default.jpg",
+        "image_sha256": "afc3e989a163ea49020f06753f58ff066ce551236c137725259eeb79c250de89",
+        "unit_id": "p33-c07",
+        "bbox": null
+      },
+      "before": "約一個月全愈、",
+      "after": "約一個月全愈",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "delete",
+          "base_start": 6,
+          "base_end": 7,
+          "result_start": 6,
+          "result_end": 6,
+          "before": "、",
+          "after": ""
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p34-c06",
+      "reason": "小字首字木在左、既在右，為概，非上下配置的槩；保留雙行分段。",
+      "source": {
+        "frame_id": "f19",
+        "physical_page_id": "p34",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0d836db2-b22d-4e7e-af43-854d77754d02.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d836db2-b22d-4e7e-af43-854d77754d02/full/3000,/0/default.jpg",
+        "image_sha256": "30867cf966bc6862f518b6365280eb5b0cd64989891caa01d95f0906715d1c71",
+        "unit_id": "p34-c06",
+        "bbox": null
+      },
+      "before": "槩係全部出",
+      "after": "概係全部出",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 0,
+          "base_end": 1,
+          "result_start": 0,
+          "result_end": 1,
+          "before": "槩",
+          "after": "概"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p35-c02",
+      "reason": "第二字左木右巨的框形清楚，採柜。第三字氵右上有斜撇、三道橫畫及中直，較支持生旁泩；此前洼的圭旁判讀本輪不沿用，但保留洼為未解候選。銀十元逐字可見。",
+      "source": {
+        "frame_id": "f19",
+        "physical_page_id": "p35",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0d836db2-b22d-4e7e-af43-854d77754d02.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d836db2-b22d-4e7e-af43-854d77754d02/full/3000,/0/default.jpg",
+        "image_sha256": "30867cf966bc6862f518b6365280eb5b0cd64989891caa01d95f0906715d1c71",
+        "unit_id": "p35-c02",
+        "bbox": null
+      },
+      "before": "鄧和洼捐銀十元",
+      "after": "鄧柜泩捐銀十元",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 3,
+          "result_start": 1,
+          "result_end": 3,
+          "before": "和洼",
+          "after": "柜泩"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p35-c04",
+      "reason": "勹內田有中央直筆分四格，改甸而非日的旬或厶的勾；銀五元可見。",
+      "source": {
+        "frame_id": "f19",
+        "physical_page_id": "p35",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0d836db2-b22d-4e7e-af43-854d77754d02.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d836db2-b22d-4e7e-af43-854d77754d02/full/3000,/0/default.jpg",
+        "image_sha256": "30867cf966bc6862f518b6365280eb5b0cd64989891caa01d95f0906715d1c71",
+        "unit_id": "p35-c04",
+        "bbox": null
+      },
+      "before": "吳旬卿捐銀五元",
+      "after": "吳甸卿捐銀五元",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "replace",
+          "base_start": 1,
+          "base_end": 2,
+          "result_start": 1,
+          "result_end": 2,
+          "before": "旬",
+          "after": "甸"
+        }
+      ],
+      "field": "units.text"
+    },
+    {
+      "unit_id": "p36-c05",
+      "reason": "銀後為二、十、元；十與元間沒有額外一字，原稿將元的頂橫誤作一，刪除。",
+      "source": {
+        "frame_id": "f20",
+        "physical_page_id": "p36",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/052bb469-772b-403b-8cbf-040a36f118a8.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/052bb469-772b-403b-8cbf-040a36f118a8/full/3000,/0/default.jpg",
+        "image_sha256": "3bfbec268da772863c86df73cb31a23feb424b6787988f6f2da69aed098c9459",
+        "unit_id": "p36-c05",
+        "bbox": null
+      },
+      "before": "何鎮光捐銀二十一元",
+      "after": "何鎮光捐銀二十元",
+      "changed": true,
+      "codepoint_edits": [
+        {
+          "operation": "delete",
+          "base_start": 7,
+          "base_end": 8,
+          "result_start": 7,
+          "result_end": 7,
+          "before": "一",
+          "after": ""
+        }
+      ],
+      "field": "units.text"
+    }
+  ],
+  "changed_unit_count": 90,
+  "source_review_decisions": [],
+  "initial_uncertainty_resolutions": [
+    {
+      "unit_id": "p01-c02",
+      "target": "粵",
+      "status": "unresolved",
+      "reason": "正文各字回圖；粵／粤仍不能由框內上方細筆穩定區分，暫保留初錄粵但不列已解。",
+      "source": {
+        "frame_id": "f02",
+        "physical_page_id": "p01",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/8708c428-8c6d-4279-ba04-f532666c3a67.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8708c428-8c6d-4279-ba04-f532666c3a67/full/3000,/0/default.jpg",
+        "image_sha256": "ba772168e87cf9824a2998935eb87e423de26beede5418f470e612078d46d8de",
+        "unit_id": "p01-c02",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p03-c04",
+      "target": "憫",
+      "status": "retain",
+      "reason": "憫右為門內文，保留憫；不是惻。",
+      "source": {
+        "frame_id": "f03",
+        "physical_page_id": "p03",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/76c9bfe5-5617-472c-89e2-c98f11de1e5d.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/76c9bfe5-5617-472c-89e2-c98f11de1e5d/full/3000,/0/default.jpg",
+        "image_sha256": "750c1c0606a0d2f1b35fd705bdd1cd308e37c3b80adabc479402af5ffa0c79e3",
+        "unit_id": "p03-c04",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p05-c06",
+      "target": "纂",
+      "status": "retain",
+      "reason": "同下字竹、目、大、糸構形可辨，保留纂；嘉慶二十四年依原圖。",
+      "source": {
+        "frame_id": "f04",
+        "physical_page_id": "p05",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/9a934fcc-c455-4f8e-b6f0-8311cc196ee9.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9a934fcc-c455-4f8e-b6f0-8311cc196ee9/full/3000,/0/default.jpg",
+        "image_sha256": "f907b1eef194ed18d8d2b2ab4df2b03f93857b4b0691e494dd61f71c42e09518",
+        "unit_id": "p05-c06",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p10-c01",
+      "target": "癰",
+      "status": "retain",
+      "reason": "脹前字上部一虫、中部並列兩虫，下方另有皿的底橫和內豎，改蠱；不是僅三虫的蟲。末字疒內雍的構件可辨，保留癰。三千號按原印保留。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "unit_id": "p10-c01",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p10-c02",
+      "target": "牛",
+      "status": "unresolved",
+      "reason": "囊右下有獨立斜點，補錄；烟右下也有斜點，保留。洋前字中間兩橫與垂豎清楚，但更下方有淡薄斷續橫痕，不能完全排除生的第三橫；牛／生保持未解，正文暫存牛，沒有採語義判斷。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "unit_id": "p10-c02",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p12-c05",
+      "target": "之則",
+      "status": "retain",
+      "reason": "者與城右下均未見獨立斜點，保留初錄。之後為貝與刂，仍讀則；二年半三年按原印，不按文意修通。",
+      "source": {
+        "frame_id": "f08",
+        "physical_page_id": "p12",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2972df1d-bcd3-469a-aae0-7765e9085b24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2972df1d-bcd3-469a-aae0-7765e9085b24/full/3000,/0/default.jpg",
+        "image_sha256": "85c3ae839b3e52b72c016b2e65db5c478d0380d692065e36719a2f97184fec4b",
+        "unit_id": "p12-c05",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p14-c02",
+      "target": "三年",
+      "status": "retain",
+      "reason": "年上三橫可分，保留三。",
+      "source": {
+        "frame_id": "f09",
+        "physical_page_id": "p14",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/acf7cca3-55e1-436d-b1e4-0e442efb1c82.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/acf7cca3-55e1-436d-b1e4-0e442efb1c82/full/3000,/0/default.jpg",
+        "image_sha256": "5e34aa78e20e226c5e74809a1535991530def6b77c3464490ba831d53dc293a3",
+        "unit_id": "p14-c02",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p15-c07",
+      "target": "脅",
+      "status": "retain",
+      "reason": "上劦下月，非月旁脇。",
+      "source": {
+        "frame_id": "f09",
+        "physical_page_id": "p15",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/acf7cca3-55e1-436d-b1e4-0e442efb1c82.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/acf7cca3-55e1-436d-b1e4-0e442efb1c82/full/3000,/0/default.jpg",
+        "image_sha256": "5e34aa78e20e226c5e74809a1535991530def6b77c3464490ba831d53dc293a3",
+        "unit_id": "p15-c07",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p17-c01",
+      "target": "鷄哪",
+      "status": "unresolved",
+      "reason": "獨立口形仍在，單碼未定。",
+      "source": {
+        "frame_id": "f10",
+        "physical_page_id": "p17",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0d51d131-6cfe-461c-8489-6bc680e3544f.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d51d131-6cfe-461c-8489-6bc680e3544f/full/3000,/0/default.jpg",
+        "image_sha256": "fa0be9cad6f9bc3885c58924848016e30f99f48d715470f74a603295d1aeb9a2",
+        "unit_id": "p17-c01",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p17-c05",
+      "target": "槩",
+      "status": "accepted",
+      "reason": "木左旣右，非上下槩。",
+      "source": {
+        "frame_id": "f10",
+        "physical_page_id": "p17",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0d51d131-6cfe-461c-8489-6bc680e3544f.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d51d131-6cfe-461c-8489-6bc680e3544f/full/3000,/0/default.jpg",
+        "image_sha256": "fa0be9cad6f9bc3885c58924848016e30f99f48d715470f74a603295d1aeb9a2",
+        "unit_id": "p17-c05",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p18-c03",
+      "target": "鷄哪",
+      "status": "unresolved",
+      "reason": "本處口奚鳥構形另看；忌已辨而罕字仍未定。",
+      "source": {
+        "frame_id": "f11",
+        "physical_page_id": "p18",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0a3d70cc-52c9-45a6-9ad9-1d257c672815.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a3d70cc-52c9-45a6-9ad9-1d257c672815/full/3000,/0/default.jpg",
+        "image_sha256": "c87ad3d15802cd48c8279e800053885ddcca0588a9cdba36b0a1eb943d5c4bdd",
+        "unit_id": "p18-c03",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p18-c05",
+      "target": "鷄哪",
+      "status": "unresolved",
+      "reason": "本處口奚鳥構形另看，未由別處回填。",
+      "source": {
+        "frame_id": "f11",
+        "physical_page_id": "p18",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0a3d70cc-52c9-45a6-9ad9-1d257c672815.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a3d70cc-52c9-45a6-9ad9-1d257c672815/full/3000,/0/default.jpg",
+        "image_sha256": "c87ad3d15802cd48c8279e800053885ddcca0588a9cdba36b0a1eb943d5c4bdd",
+        "unit_id": "p18-c05",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p19-c01",
+      "target": "精鎡嘔散",
+      "status": "accepted",
+      "reason": "右奇的大、可與口鉤明確，非茲或啇。",
+      "source": {
+        "frame_id": "f11",
+        "physical_page_id": "p19",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0a3d70cc-52c9-45a6-9ad9-1d257c672815.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a3d70cc-52c9-45a6-9ad9-1d257c672815/full/3000,/0/default.jpg",
+        "image_sha256": "c87ad3d15802cd48c8279e800053885ddcca0588a9cdba36b0a1eb943d5c4bdd",
+        "unit_id": "p19-c01",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p21-c07",
+      "target": "開接",
+      "status": "retain",
+      "reason": "扌加妾明確，忠實留接，不修成腹。",
+      "source": {
+        "frame_id": "f12",
+        "physical_page_id": "p21",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/068210e3-4cb2-4c37-8eda-774945dd34a9.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/068210e3-4cb2-4c37-8eda-774945dd34a9/full/3000,/0/default.jpg",
+        "image_sha256": "c5f843c68ef89a9473537e6d636fc94b584a33399ea3e568cbf9ce5a1ec3ee79",
+        "unit_id": "p21-c07",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p22-c03",
+      "target": "通溺管銀管圖",
+      "status": "retain",
+      "reason": "後管下官而非同。",
+      "source": {
+        "frame_id": "f13",
+        "physical_page_id": "p22",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/46ce711e-ead5-479b-afed-a7ecc9ecf714.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/46ce711e-ead5-479b-afed-a7ecc9ecf714/full/3000,/0/default.jpg",
+        "image_sha256": "c235bd6d892e04511a7c4d54688f9a3b3f6c4f01bcd6b04aaf3f2332e7316287",
+        "unit_id": "p22-c03",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p22-c05",
+      "target": "鉗",
+      "status": "retain",
+      "reason": "右甘兩直及內橫，非占。",
+      "source": {
+        "frame_id": "f13",
+        "physical_page_id": "p22",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/46ce711e-ead5-479b-afed-a7ecc9ecf714.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/46ce711e-ead5-479b-afed-a7ecc9ecf714/full/3000,/0/default.jpg",
+        "image_sha256": "c235bd6d892e04511a7c4d54688f9a3b3f6c4f01bcd6b04aaf3f2332e7316287",
+        "unit_id": "p22-c05",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p25-c02",
+      "target": "唐性",
+      "status": "source-supported",
+      "reason": "唐性：保留；左忄而非女清楚。",
+      "source": {
+        "frame_id": "f14",
+        "physical_page_id": "p25",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b86cb4cc-0ddd-44b1-805e-c7b90249677f.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b86cb4cc-0ddd-44b1-805e-c7b90249677f/full/3000,/0/default.jpg",
+        "image_sha256": "1f7dfd407759ddf0fc584214389e7b6e61d1a4f6680386febf769c08daf12e79",
+        "unit_id": "p25-c02",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p29-c02",
+      "target": "弍",
+      "status": "source-supported",
+      "reason": "弍：保留；斜鉤與二橫清楚。另新見尺後為弎。",
+      "source": {
+        "frame_id": "f16",
+        "physical_page_id": "p29",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/80f772d4-0154-4563-8aea-5bba0b6e190b.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/80f772d4-0154-4563-8aea-5bba0b6e190b/full/3000,/0/default.jpg",
+        "image_sha256": "a45c22453bbbeed692747003c70bf10a2313adbaefb9fce7b1b55ba52234ef10",
+        "unit_id": "p29-c02",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p31-c01",
+      "target": "錫鋪",
+      "status": "source-supported",
+      "reason": "錫鋪改錫錆；原圖右部青可辨。",
+      "source": {
+        "frame_id": "f17",
+        "physical_page_id": "p31",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/acf99cf8-0109-4bbe-a5df-ad88385b925a.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/acf99cf8-0109-4bbe-a5df-ad88385b925a/full/3000,/0/default.jpg",
+        "image_sha256": "a24adf63c879b47dcb504937734fd5a78f3bb00a03848bb9ed43350a0ae89e10",
+        "unit_id": "p31-c01",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p32-c02",
+      "target": "纔起",
+      "status": "source-supported",
+      "reason": "纔：保留；糸右毚上兔式密筆、下尾點可辨。",
+      "source": {
+        "frame_id": "f18",
+        "physical_page_id": "p32",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f70d8b95-6e7e-48a3-8889-4524c3dc0329.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f70d8b95-6e7e-48a3-8889-4524c3dc0329/full/3000,/0/default.jpg",
+        "image_sha256": "afc3e989a163ea49020f06753f58ff066ce551236c137725259eeb79c250de89",
+        "unit_id": "p32-c02",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p32-c05",
+      "target": "饒姓",
+      "status": "source-supported",
+      "reason": "饒：保留；食旁內框及末斜筆可辨，非金。",
+      "source": {
+        "frame_id": "f18",
+        "physical_page_id": "p32",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f70d8b95-6e7e-48a3-8889-4524c3dc0329.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f70d8b95-6e7e-48a3-8889-4524c3dc0329/full/3000,/0/default.jpg",
+        "image_sha256": "afc3e989a163ea49020f06753f58ff066ce551236c137725259eeb79c250de89",
+        "unit_id": "p32-c05",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p33-c08",
+      "target": "翳",
+      "status": "source-supported",
+      "reason": "翳：保留；上殹下羽有圖像支持。",
+      "source": {
+        "frame_id": "f18",
+        "physical_page_id": "p33",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f70d8b95-6e7e-48a3-8889-4524c3dc0329.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f70d8b95-6e7e-48a3-8889-4524c3dc0329/full/3000,/0/default.jpg",
+        "image_sha256": "afc3e989a163ea49020f06753f58ff066ce551236c137725259eeb79c250de89",
+        "unit_id": "p33-c08",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p34-c02",
+      "target": "蠱腫",
+      "status": "unresolved-provisional",
+      "reason": "蠱：仍未解；保留暫讀，候選蠧。",
+      "source": {
+        "frame_id": "f19",
+        "physical_page_id": "p34",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0d836db2-b22d-4e7e-af43-854d77754d02.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d836db2-b22d-4e7e-af43-854d77754d02/full/3000,/0/default.jpg",
+        "image_sha256": "30867cf966bc6862f518b6365280eb5b0cd64989891caa01d95f0906715d1c71",
+        "unit_id": "p34-c02",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p35-c02",
+      "target": "鄧和洼",
+      "status": "unresolved-provisional",
+      "reason": "鄧和洼改暫鄧柜泩；柜可定，泩與洼仍列候選。",
+      "source": {
+        "frame_id": "f19",
+        "physical_page_id": "p35",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0d836db2-b22d-4e7e-af43-854d77754d02.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d836db2-b22d-4e7e-af43-854d77754d02/full/3000,/0/default.jpg",
+        "image_sha256": "30867cf966bc6862f518b6365280eb5b0cd64989891caa01d95f0906715d1c71",
+        "unit_id": "p35-c02",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p35-c04",
+      "target": "吳旬卿",
+      "status": "source-supported",
+      "reason": "吳旬卿改吳甸卿，勹內田可辨。",
+      "source": {
+        "frame_id": "f19",
+        "physical_page_id": "p35",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0d836db2-b22d-4e7e-af43-854d77754d02.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d836db2-b22d-4e7e-af43-854d77754d02/full/3000,/0/default.jpg",
+        "image_sha256": "30867cf966bc6862f518b6365280eb5b0cd64989891caa01d95f0906715d1c71",
+        "unit_id": "p35-c04",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p35-c09",
+      "target": "何靄臣",
+      "status": "source-supported",
+      "reason": "何靄臣保留；雨下言曷可辨。",
+      "source": {
+        "frame_id": "f19",
+        "physical_page_id": "p35",
+        "side": "left",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0d836db2-b22d-4e7e-af43-854d77754d02.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d836db2-b22d-4e7e-af43-854d77754d02/full/3000,/0/default.jpg",
+        "image_sha256": "30867cf966bc6862f518b6365280eb5b0cd64989891caa01d95f0906715d1c71",
+        "unit_id": "p35-c09",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p36-c11",
+      "target": "西國人各藥",
+      "status": "source-supported",
+      "reason": "西國人各藥保留；人與各各自獨立，不猜補刪除。",
+      "source": {
+        "frame_id": "f20",
+        "physical_page_id": "p36",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/052bb469-772b-403b-8cbf-040a36f118a8.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/052bb469-772b-403b-8cbf-040a36f118a8/full/3000,/0/default.jpg",
+        "image_sha256": "3bfbec268da772863c86df73cb31a23feb424b6787988f6f2da69aed098c9459",
+        "unit_id": "p36-c11",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p36-c07",
+      "target": "叁",
+      "status": "source-supported",
+      "reason": "叁保留；下部三橫可辨。",
+      "source": {
+        "frame_id": "f20",
+        "physical_page_id": "p36",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/052bb469-772b-403b-8cbf-040a36f118a8.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/052bb469-772b-403b-8cbf-040a36f118a8/full/3000,/0/default.jpg",
+        "image_sha256": "3bfbec268da772863c86df73cb31a23feb424b6787988f6f2da69aed098c9459",
+        "unit_id": "p36-c07",
+        "bbox": null
+      }
+    },
+    {
+      "unit_id": "p36-c13",
+      "target": "叁",
+      "status": "source-supported",
+      "reason": "叁保留；下部三橫可辨。",
+      "source": {
+        "frame_id": "f20",
+        "physical_page_id": "p36",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/052bb469-772b-403b-8cbf-040a36f118a8.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/052bb469-772b-403b-8cbf-040a36f118a8/full/3000,/0/default.jpg",
+        "image_sha256": "3bfbec268da772863c86df73cb31a23feb424b6787988f6f2da69aed098c9459",
+        "unit_id": "p36-c13",
+        "bbox": null
+      }
+    }
+  ],
+  "uncertainties": [
+    {
+      "page_id": "f02",
+      "id": "unc-0001",
+      "unit_id": "p01-c02",
+      "start": 0,
+      "end": 1,
+      "surface": "粵",
+      "reason": "內部釆／米細筆未充分分開；沿用上一輪未解，不因兩稿同字消除。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "粵",
+        "粤"
+      ]
+    },
+    {
+      "page_id": "f02",
+      "id": "unc-0002",
+      "unit_id": "p01-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "原圖書口缺左半，書題暫保留初錄，完整構形未全存。 館／舘所需左部在本面缺失，不能由其他面代補，正文暫保留館。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫舘畧述"
+      ]
+    },
+    {
+      "page_id": "f03",
+      "id": "unc-0003",
+      "unit_id": "p02-c02",
+      "start": 11,
+      "end": 12,
+      "surface": "既",
+      "reason": "左上斜筆及左下部件細畫不足穩定判定碼位，暫保留既，不做全書正規化。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "既",
+        "旣"
+      ]
+    },
+    {
+      "page_id": "f03",
+      "id": "unc-0004",
+      "unit_id": "p02-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫舘畧述",
+      "reason": "外側部分受書口裁切，僅依本面殘存構形保留，非全字無缺筆讀數。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫舘畧述"
+      ]
+    },
+    {
+      "page_id": "f03",
+      "id": "unc-0005",
+      "unit_id": "p03-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "原圖左半書口文字缺損，保留初錄及局部構形讀法，不能宣稱全字輪廓俱全。 館／舘所需左部在本面缺失，不能由其他面代補，正文暫保留館。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫舘畧述"
+      ]
+    },
+    {
+      "page_id": "f04",
+      "id": "unc-0006",
+      "unit_id": "p04-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫舘畧述",
+      "reason": "右半書口受裁，完整筆畫不全；畧的上下結構仍可確認。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫舘畧述"
+      ]
+    },
+    {
+      "page_id": "f04",
+      "id": "unc-0007",
+      "unit_id": "p05-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "原圖書口缺左半，暫保留初錄，完整構形不全。 館／舘所需左部在本面缺失，不能由其他面代補，正文暫保留館。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫舘畧述"
+      ]
+    },
+    {
+      "page_id": "f05",
+      "id": "unc-0008",
+      "unit_id": "p06-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫舘畧述",
+      "reason": "書口外側部分字形受裁，保留本面可見構形讀法。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫舘畧述"
+      ]
+    },
+    {
+      "page_id": "f05",
+      "id": "unc-0009",
+      "unit_id": "p07-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "左半原圖缺筆，保留初錄但不稱完整字形確讀。 館／舘所需左部在本面缺失，不能由其他面代補，正文暫保留館。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫舘畧述"
+      ]
+    },
+    {
+      "page_id": "f06",
+      "id": "unc-0010",
+      "unit_id": "p08-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫舘畧述",
+      "reason": "外折處部分字形受裁，保留本面可見讀法。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫舘畧述"
+      ]
+    },
+    {
+      "page_id": "f06",
+      "id": "unc-0011",
+      "unit_id": "p09-c05",
+      "start": 6,
+      "end": 7,
+      "surface": "辨",
+      "reason": "兩辛間細筆不夠清楚，暫保留初錄辨，不按詞義決定。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "辨",
+        "辧",
+        "辦"
+      ]
+    },
+    {
+      "page_id": "f06",
+      "id": "unc-0012",
+      "unit_id": "p09-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "書口原圖左半構形缺損，保留初錄但未完整確讀。 館／舘所需左部在本面缺失，不能由其他面代補，正文暫保留館。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫舘畧述"
+      ]
+    },
+    {
+      "page_id": "f07",
+      "id": "unc-0013",
+      "unit_id": "p10-c02",
+      "start": 15,
+      "end": 16,
+      "surface": "牛",
+      "reason": "洋前字底部有淡斷橫痕，牛的兩橫或生的第三橫未可穩定排除；保留初錄，撤回本輪範圍內將此字當作已解的確定度，前輪固定報告不改。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "牛",
+        "生"
+      ]
+    },
+    {
+      "page_id": "f07",
+      "id": "unc-0014",
+      "unit_id": "p10-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫舘畧述",
+      "reason": "左舍部與畧構形可辨，但版心右半缺失，整個書題不是全部筆畫俱全。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫舘畧述"
+      ]
+    },
+    {
+      "page_id": "f07",
+      "id": "unc-0015",
+      "unit_id": "p11-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "左半字形在原圖已缺失，館／舘的區別構件不存；沿用初錄而非已定讀法。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫舘畧述"
+      ]
+    },
+    {
+      "page_id": "f08",
+      "id": "unc-0016",
+      "unit_id": "p12-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫舘畧述",
+      "reason": "左舍及畧構形可辨，外側書口缺筆仍在。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫舘畧述"
+      ]
+    },
+    {
+      "page_id": "f08",
+      "id": "unc-0017",
+      "unit_id": "p13-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "原圖左側黑邊截去書名字左半；可見右側官、畧述的部分筆畫。篇題西醫敘畧與七可讀，不能由篇題替換書名。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "西醫敘略"
+      ]
+    },
+    {
+      "page_id": "f09",
+      "id": "unc-0018",
+      "unit_id": "p14-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "右版心書名四字與上下田各的畧大致可見，但折邊重線遮去館字部分；節不合所見田各。魚尾下尚有被折邊遮住細字痕。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫館節述"
+      ]
+    },
+    {
+      "page_id": "f09",
+      "id": "unc-0019",
+      "unit_id": "p15-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "左版心書名左半被黑邊遮斷；篇題論瘧疾及八可讀。不可把篇題當成書名。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "論瘧疾"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0020",
+      "unit_id": "p16-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "右版心各字右半在黑邊／折邊外，見醫、食旁及上下田各、辶的部分形；無完整可讀頁碼。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫館略述"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0021",
+      "unit_id": "p17-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "左版心書名被黑邊遮去左半；篇題論瘧疾及九可讀；獨讀書名原為null，未回填其raw。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0029",
+      "unit_id": "p17-c01",
+      "start": 5,
+      "end": 7,
+      "surface": "鷄哪",
+      "reason": "本處另行回圖：左有完整獨立口，中為奚狀、右有鳥頭與尾點。鷄／雞單字不能完整表達額外口形；不按藥名決碼，保留初稿暫讀但明示不完整。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "⿰口鷄（構形描述，非已定單碼）",
+        "鷄哪",
+        "雞哪"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0030",
+      "unit_id": "p17-c08",
+      "start": 9,
+      "end": 11,
+      "surface": "鷄哪",
+      "reason": "本處另行回圖：左有完整獨立口，中為奚狀、右有鳥頭與尾點。鷄／雞單字不能完整表達額外口形；不按藥名決碼，保留初稿暫讀但明示不完整。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "⿰口鷄（構形描述，非已定單碼）",
+        "鷄哪",
+        "雞哪"
+      ]
+    },
+    {
+      "page_id": "f11",
+      "id": "unc-0022",
+      "unit_id": "p18-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "右版心書名字右半被遮；魚尾下有篇題左半殘筆，原暫讀論瘧症的末字不足定症或疾。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫館略述"
+      ]
+    },
+    {
+      "page_id": "f11",
+      "id": "unc-0023",
+      "unit_id": "p19-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "左版心書名被遮去左半；兩個篇題分段救食生鴉片、論戒鴉片可辨，十清楚。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫舘略述"
+      ]
+    },
+    {
+      "page_id": "f11",
+      "id": "unc-0031",
+      "unit_id": "p18-c03",
+      "start": 15,
+      "end": 17,
+      "surface": "鷄哪",
+      "reason": "本處另行回圖：左有完整獨立口，中為奚狀、右有鳥頭與尾點。鷄／雞單字不能完整表達額外口形；不按藥名決碼，保留初稿暫讀但明示不完整。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "⿰口鷄（構形描述，非已定單碼）",
+        "鷄哪",
+        "雞哪"
+      ]
+    },
+    {
+      "page_id": "f11",
+      "id": "unc-0032",
+      "unit_id": "p18-c05",
+      "start": 2,
+      "end": 4,
+      "surface": "鷄哪",
+      "reason": "本處另行回圖：左有完整獨立口，中為奚狀、右有鳥頭與尾點。鷄／雞單字不能完整表達額外口形；不按藥名決碼，保留初稿暫讀但明示不完整。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "⿰口鷄（構形描述，非已定單碼）",
+        "鷄哪",
+        "雞哪"
+      ]
+    },
+    {
+      "page_id": "f11",
+      "id": "unc-0033",
+      "unit_id": "p18-par01",
+      "start": 0,
+      "end": 3,
+      "surface": "論瘧症",
+      "reason": "魚尾下只見每字左側殘筆；末字尚不能由圖區分症、疾，不用相鄰頁篇題補定。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "論瘧症",
+        "論瘧疾",
+        "末字不可定"
+      ]
+    },
+    {
+      "page_id": "f12",
+      "id": "unc-0024",
+      "unit_id": "p20-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "右版心書名字右半被折邊遮；魚尾下有殘筆，不能可靠還原篇題或頁碼。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫舘略述"
+      ]
+    },
+    {
+      "page_id": "f12",
+      "id": "unc-0025",
+      "unit_id": "p21-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "左版心書名被遮去左半；篇題論難產、頁碼十一清楚。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫舘略述"
+      ]
+    },
+    {
+      "page_id": "f13",
+      "id": "unc-0026",
+      "unit_id": "p22-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "右版心只有四字書名左側可見，田各上下配置、末字辶支持原暫讀；不支持獨讀六字西醫館全書。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "西醫館全書"
+      ]
+    },
+    {
+      "page_id": "f13",
+      "id": "unc-0027",
+      "unit_id": "p23-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "左版心四字書名右半可見；篇題論小腸疝及十二清楚，獨讀六字書名不合字位。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "西醫館全書"
+      ]
+    },
+    {
+      "page_id": "f14",
+      "id": "unc-0028",
+      "unit_id": "p24-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "右版心四字書名左側可見，田各上下配置及末字辶可見；不支持獨讀六字西醫館全書，完整館字仍受遮。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "西醫館全書"
+      ]
+    },
+    {
+      "page_id": "f14",
+      "id": "unc-0034",
+      "unit_id": "p25-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "原圖邊緣版心上題部分筆畫被物理邊緣截去，暫保留醫館畧述並列未解，不以兩稿或跨頁一致定字；魚尾按圖形記於版式，不轉錄為【。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "西醫館全書"
+      ]
+    },
+    {
+      "page_id": "f15",
+      "id": "unc-0035",
+      "unit_id": "p26-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "原圖邊緣版心上題部分筆畫被物理邊緣截去，暫保留醫館畧述並列未解，不以兩稿或跨頁一致定字；魚尾按圖形記於版式，不轉錄為【。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "西醫館全書"
+      ]
+    },
+    {
+      "page_id": "f15",
+      "id": "unc-0036",
+      "unit_id": "p27-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "原圖邊緣版心上題部分筆畫被物理邊緣截去，暫保留醫館畧述並列未解，不以兩稿或跨頁一致定字；魚尾按圖形記於版式，不轉錄為【。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "西醫館全書"
+      ]
+    },
+    {
+      "page_id": "f15",
+      "id": "unc-0037",
+      "unit_id": "p27-c02",
+      "start": 3,
+      "end": 4,
+      "surface": "沈",
+      "reason": "同一固定影像上部筆畫相接，尚不能可靠判定冘／冗的出頭關係；不以兩稿或跨頁一致定字。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "沈",
+        "沉"
+      ]
+    },
+    {
+      "page_id": "f16",
+      "id": "unc-0038",
+      "unit_id": "p28-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "原圖邊緣版心上題部分筆畫被物理邊緣截去，暫保留醫館畧述並列未解，不以兩稿或跨頁一致定字；魚尾按圖形記於版式，不轉錄為【。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫館略述"
+      ]
+    },
+    {
+      "page_id": "f16",
+      "id": "unc-0039",
+      "unit_id": "p29-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "版心上題部分筆畫被物理邊緣截去，暫醫館畧述並列未解；魚尾為圖形。其餘版心字及有印頁碼按本頁實看。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫館略述"
+      ]
+    },
+    {
+      "page_id": "f17",
+      "id": "unc-0040",
+      "unit_id": "p30-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "版心上題部分筆畫被物理邊緣截去，暫醫館畧述並列未解；魚尾為圖形。其餘版心字及有印頁碼按本頁實看。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫館略述"
+      ]
+    },
+    {
+      "page_id": "f17",
+      "id": "unc-0041",
+      "unit_id": "p31-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "版心上題部分筆畫被物理邊緣截去，暫醫館畧述並列未解；魚尾為圖形。其餘版心字及有印頁碼按本頁實看。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫館略述"
+      ]
+    },
+    {
+      "page_id": "f18",
+      "id": "unc-0042",
+      "unit_id": "p32-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "版心上題部分筆畫被物理邊緣截去，暫醫館畧述並列未解；魚尾為圖形。其餘版心字及有印頁碼按本頁實看。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫館略述"
+      ]
+    },
+    {
+      "page_id": "f18",
+      "id": "unc-0043",
+      "unit_id": "p32-c07",
+      "start": 9,
+      "end": 10,
+      "surface": "沈",
+      "reason": "本處上部筆畫相接，尚不能可靠判定冘／冗的出頭關係；保留原稿暫讀。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "沈",
+        "沉"
+      ]
+    },
+    {
+      "page_id": "f18",
+      "id": "unc-0044",
+      "unit_id": "p33-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "版心上題部分筆畫被物理邊緣截去，暫保留醫館畧述並列未解；不能據獨立稿或其他頁強定。魚尾按圖形記於版式。其餘版心字、頁碼按本頁實看。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫館略述"
+      ]
+    },
+    {
+      "page_id": "f19",
+      "id": "unc-0045",
+      "unit_id": "p34-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "版心上題部分筆畫被物理邊緣截去，暫保留醫館畧述並列未解；不能據獨立稿或其他頁強定。魚尾按圖形記於版式。其餘版心字、頁碼按本頁實看。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫館各規"
+      ]
+    },
+    {
+      "page_id": "f19",
+      "id": "unc-0046",
+      "unit_id": "p34-c02",
+      "start": 0,
+      "end": 1,
+      "surface": "蠱",
+      "reason": "下部近皿，但上方多虫各自輪廓因缺墨不完整，保留未解。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "蠱",
+        "蠧"
+      ]
+    },
+    {
+      "page_id": "f19",
+      "id": "unc-0047",
+      "unit_id": "p35-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "版心上題部分筆畫被物理邊緣截去，暫保留醫館畧述並列未解；不能據獨立稿或其他頁強定。魚尾按圖形記於版式。其餘版心字、頁碼按本頁實看。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫館各規"
+      ]
+    },
+    {
+      "page_id": "f19",
+      "id": "unc-0048",
+      "unit_id": "p35-c02",
+      "start": 2,
+      "end": 3,
+      "surface": "泩",
+      "reason": "本輪可見右上斜撇及三橫支持生旁；與先前同源覆核對圭旁的判讀相反，保存暫讀與候選，待較佳影像或人工判斷。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "known",
+      "candidates": [
+        "泩",
+        "洼"
+      ]
+    },
+    {
+      "page_id": "f20",
+      "id": "unc-0049",
+      "unit_id": "p36-running-title",
+      "start": 0,
+      "end": 4,
+      "surface": "醫館畧述",
+      "reason": "版心上題部分筆畫被物理邊緣截去，暫保留醫館畧述並列未解；不能據獨立稿或其他頁強定。魚尾按圖形記於版式。其餘版心字、頁碼按本頁實看。",
+      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
+      "extent": "located-unit",
+      "candidates": [
+        "醫館畧述",
+        "醫館各規"
+      ]
+    }
+  ],
+  "unresolved_count": 49,
+  "untranscribed_regions": [
+    {
+      "id": "p06.other_paratext",
+      "physical_page_id": "p06",
+      "extent": "unknown",
+      "character_count": null,
+      "text": null,
+      "status": "source-region-inspected-but-text-or-ink-origin-unresolved",
+      "reason": "字形及葉面歸屬不足，字數unknown；未加入原印文字。",
+      "source": {
+        "frame_id": "f05",
+        "physical_page_id": "p06",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0aa7a834-9a53-45e0-90a2-c7587fb73f93.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0aa7a834-9a53-45e0-90a2-c7587fb73f93/full/3000,/0/default.jpg",
+        "image_sha256": "c0b1711ba0d617464b806aaf3b5465498858948f4c067602352446b928cdc7be",
+        "bbox": null
+      }
+    },
+    {
+      "id": "p08.other_paratext",
+      "physical_page_id": "p08",
+      "extent": "unknown",
+      "character_count": null,
+      "text": null,
+      "status": "source-region-inspected-but-text-or-ink-origin-unresolved",
+      "reason": "無法確認完整字形及所在葉，字數unknown，不新增文字。",
+      "source": {
+        "frame_id": "f06",
+        "physical_page_id": "p08",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0da267a5-f048-4965-ac33-3665f5732012.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0da267a5-f048-4965-ac33-3665f5732012/full/3000,/0/default.jpg",
+        "image_sha256": "5f8fa2987f2ba36a4a7e2326f6217629713d9744e2fa2d249907ca3e7bf51248",
+        "bbox": null
+      }
+    },
+    {
+      "id": "p10.other_paratext",
+      "physical_page_id": "p10",
+      "extent": "unknown",
+      "character_count": null,
+      "text": null,
+      "status": "source-region-inspected-but-text-or-ink-origin-unresolved",
+      "reason": "歸屬本面或鄰葉及文字不明，未增字。",
+      "source": {
+        "frame_id": "f07",
+        "physical_page_id": "p10",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c4849da9-ce30-4891-9c3b-eb6675ce8326.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+        "image_sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+        "bbox": null
+      }
+    },
+    {
+      "id": "p12.other_paratext",
+      "physical_page_id": "p12",
+      "extent": "unknown",
+      "character_count": null,
+      "text": null,
+      "status": "source-region-inspected-but-text-or-ink-origin-unresolved",
+      "reason": "歸屬本面或鄰葉及文字不明，未增字。",
+      "source": {
+        "frame_id": "f08",
+        "physical_page_id": "p12",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2972df1d-bcd3-469a-aae0-7765e9085b24.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2972df1d-bcd3-469a-aae0-7765e9085b24/full/3000,/0/default.jpg",
+        "image_sha256": "85c3ae839b3e52b72c016b2e65db5c478d0380d692065e36719a2f97184fec4b",
+        "bbox": null
+      }
+    },
+    {
+      "id": "p14.residual-margin",
+      "physical_page_id": "p14",
+      "extent": "unknown",
+      "character_count": null,
+      "text": null,
+      "status": "source-region-inspected-but-text-or-ink-origin-unresolved",
+      "reason": "魚尾下或頁邊另見極窄殘墨，不能確認完整字串或屬本面／下層頁；不補造篇題與頁碼。",
+      "source": {
+        "frame_id": "f09",
+        "physical_page_id": "p14",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/acf7cca3-55e1-436d-b1e4-0e442efb1c82.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/acf7cca3-55e1-436d-b1e4-0e442efb1c82/full/3000,/0/default.jpg",
+        "image_sha256": "5e34aa78e20e226c5e74809a1535991530def6b77c3464490ba831d53dc293a3",
+        "bbox": null
+      }
+    },
+    {
+      "id": "p16.residual-margin",
+      "physical_page_id": "p16",
+      "extent": "unknown",
+      "character_count": null,
+      "text": null,
+      "status": "source-region-inspected-but-text-or-ink-origin-unresolved",
+      "reason": "魚尾下或頁邊另見極窄殘墨，不能確認完整字串或屬本面／下層頁；不補造篇題與頁碼。",
+      "source": {
+        "frame_id": "f10",
+        "physical_page_id": "p16",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0d51d131-6cfe-461c-8489-6bc680e3544f.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d51d131-6cfe-461c-8489-6bc680e3544f/full/3000,/0/default.jpg",
+        "image_sha256": "fa0be9cad6f9bc3885c58924848016e30f99f48d715470f74a603295d1aeb9a2",
+        "bbox": null
+      }
+    },
+    {
+      "id": "p18.residual-margin",
+      "physical_page_id": "p18",
+      "extent": "unknown",
+      "character_count": null,
+      "text": null,
+      "status": "source-region-inspected-but-text-or-ink-origin-unresolved",
+      "reason": "魚尾下或頁邊另見極窄殘墨，不能確認完整字串或屬本面／下層頁；不補造篇題與頁碼。",
+      "source": {
+        "frame_id": "f11",
+        "physical_page_id": "p18",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0a3d70cc-52c9-45a6-9ad9-1d257c672815.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a3d70cc-52c9-45a6-9ad9-1d257c672815/full/3000,/0/default.jpg",
+        "image_sha256": "c87ad3d15802cd48c8279e800053885ddcca0588a9cdba36b0a1eb943d5c4bdd",
+        "bbox": null
+      }
+    },
+    {
+      "id": "p20.residual-margin",
+      "physical_page_id": "p20",
+      "extent": "unknown",
+      "character_count": null,
+      "text": null,
+      "status": "source-region-inspected-but-text-or-ink-origin-unresolved",
+      "reason": "魚尾下或頁邊另見極窄殘墨，不能確認完整字串或屬本面／下層頁；不補造篇題與頁碼。",
+      "source": {
+        "frame_id": "f12",
+        "physical_page_id": "p20",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/068210e3-4cb2-4c37-8eda-774945dd34a9.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/068210e3-4cb2-4c37-8eda-774945dd34a9/full/3000,/0/default.jpg",
+        "image_sha256": "c5f843c68ef89a9473537e6d636fc94b584a33399ea3e568cbf9ce5a1ec3ee79",
+        "bbox": null
+      }
+    },
+    {
+      "id": "p24.residual-margin",
+      "physical_page_id": "p24",
+      "extent": "unknown",
+      "character_count": null,
+      "text": null,
+      "status": "source-region-inspected-but-text-or-ink-origin-unresolved",
+      "reason": "魚尾下或頁邊另見極窄殘墨，不能確認完整字串或屬本面／下層頁；不補造篇題與頁碼。",
+      "source": {
+        "frame_id": "f14",
+        "physical_page_id": "p24",
+        "side": "right",
+        "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b86cb4cc-0ddd-44b1-805e-c7b90249677f.json",
+        "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b86cb4cc-0ddd-44b1-805e-c7b90249677f/full/3000,/0/default.jpg",
+        "image_sha256": "1f7dfd407759ddf0fc584214389e7b6e61d1a4f6680386febf769c08daf12e79",
+        "bbox": null
+      }
+    }
+  ],
+  "position_convention": "Unicode碼點0起算半開區間；before/after的null為新增或移除單位。文字unit bbox=null，無逐字座標；未定殘墨區另記extent=unknown。",
+  "note": "改動單位數不是錯字數、成功修正數或準確率；獨立觀察與非盲裁定分開。"
+}

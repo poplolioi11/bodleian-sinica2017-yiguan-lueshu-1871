@@ -1,7 +1,7 @@
 # 讀者指南
 
-book.txt中的〔unit:…〕是現代導航標籤，分隔換行不是古籍新增句讀。引用請記版本與unit ID，再由pXX／side及所屬fXX的canvas／image_url回官方全幅影像核對。沒有逐字或欄框座標，bbox為null。
+先讀quality、COLLATION.md及uncertainties.json。book.txt的〔unit:…〕與分隔換行為現代導航，不是新增古籍句讀。引用記版本及unit ID，再由pXX/side與fXX的canvas/image_url回原圖核對。
 
-附文已是獨立unit；methods.physical_faces中的相同欄位只保存原稿metadata，不要再拼接成第二份正文。欄序依固定稿陣列，不預設固定欄數。圖字、圖說與表列保存字串，不重建圖形幾何。
+JSON／TXT／TEI由同一固定文字產生；metadata及初錄快照不再合併為正文。圖字、圖說與表列只存文字，不重建幾何或表格語義。
 
-疑讀用Unicode碼點定位，不是UTF-8 bytes或字形群；請連同候選與理由閱讀。JSON、TXT、TEI為逐unit無損投影；TEI是最小P5投影，未提供完整apparatus、ODD或Schematron。驗證看VALIDATION.json，不代表文字正確。
+疑讀位置是Unicode碼點，不是bytes或字形群。TEI為最小P5投影，未做完整apparatus、ODD或Schematron；schema及往返通過不等於學術正確。

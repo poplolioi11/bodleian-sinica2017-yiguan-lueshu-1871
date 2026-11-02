@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Sinica 2017 fixed initial transcription book schema, 1.0.0",
+  "title": "Sinica 2017 AI-collated transcription book schema, 1.0.0",
   "type": "object",
   "required": [
     "dataset_id",

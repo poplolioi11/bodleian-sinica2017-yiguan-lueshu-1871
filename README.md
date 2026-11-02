@@ -1,27 +1,37 @@
 # 醫館略述 · Bodleian Sinica 2017
 
-**v0.1.0｜AI初錄，保留疑讀；獨立校讀另版。**
+**v0.2.0｜獨立AI讀稿與非盲回圖修訂，保留未解。**
 
-整理者：曲宸宇（Chu, Chen-Yu；GitHub：poplolioi11；[ORCID](https://orcid.org/0009-0003-9738-6914)）。
+整理者：曲宸宇（Chu, Chen-Yu；GitHub：poplolioi11；[ORCID](https://orcid.org/0009-0003-9738-6914)）。本資料供歷史文字檢索、定位、引用及後續訂正。未驗證歷史醫館自述、金額或治療主張，未進行生物研究、實驗或現代操作指引整理。
 
-本資料整理1871年福州醫館小冊，包含沿革與慈善敘述、捐款等原印表列，以及歷史醫療圖說。未驗證書中療法、數字或醫館自述，未進行生物研究、實驗或現代操作指引整理。 提供可檢索、定位、引用與後續訂正的歷史文字，供醫學史、地方史、醫療慈善史與傳教醫療史研究使用。
+館藏書目題名《醫館略述》，1871年，Serica地點[Foochow]。題頁本版暫錄「醫舘畧述」、紀年「同治十年孟冬」、歷史責任題署「大美國醫士柯爲樑校訂」，與書目題名分開保存；刊記及出版者未核，不推定英文姓名。
 
-館藏書目題名《醫館略述》，年份1871，地點欄Serica [Foochow]，責任題署「大美國醫士柯為樑校訂」。題頁原印「醫館畧述」、紀年「同治十年孟冬」、責任「大美國醫士柯為樑校訂」；字形照存，不用書目題名默改。另未核刊記及出版者保持unknown，不推定英文姓名。
+本版比較獨立AI讀稿及固定初錄，再作非盲原圖裁定。21幅官方影像、37個目標物理面，合計344單位、5089個Unicode碼點；90單位字串變動（含新增1、移除0單位）。29筆初錄疑讀各有處理，本版保留49筆字串內未解，另有9處已查看但性質及字數未定的魚尾下或頁邊殘墨區。這些數量不是錯字數或準確率。
 
-範圍為21幅官方影像幀、37個目標物理面；含p00原印題頁、p01序、圖內文字、圖說與末段原印表列。p04內框雖無正文，仍有原印版心，不稱整頁空白。圖面依修正版總覽為p22、p24、p29、p30；實際文字角色以固定稿為準，不重建圖形幾何。f01、f21的現代鉛筆、館藏章及攝影尺／色卡只描述。固定稿271個原始單位，附文欄位投影72個獨立單位，合計343單位、5075個Unicode碼點、29筆疑讀；碼點數不是漢字數，疑讀數不是錯誤率。
+全21幅固定影像已有獨立AI讀稿；非盲裁定針對37物理面完整裁片、版心及必要細節回圖，不把引用全幅來源等同每位裁定者均逐幅直接看過全圖。
 
-[TXT](book.txt)／[JSON](book.json)／[TEI XML](book.tei.xml)／[來源](source-pages.json)／[疑讀](uncertainties.json)／[資料字典](DATA-DICTIONARY.md)／[讀者指南](READING-GUIDE.md)／[文字政策](TRANSCRIPTION-POLICY.md)／[品質](QUALITY-AND-CONTRIBUTIONS.md)／[訂正](CORRECTIONS.md)／[驗證](VALIDATION.json)／[權利](RIGHTS.md)／[引用](CITATION.cff)。
+獨立原稿分段與初錄不同，曾漏列p14一整欄；版心及附文另有遺漏、角色誤判與未解。另作36面版心原像素補讀，仍有無法辨清者；原始獨立及補讀輸出保留，不回填裁定字串。格式修復只修JSON結構，未改字串。
 
-本版是AI初錄；尚未套用獨立校讀，未經人工雙校、專家審定或同儕審查，未量測準確率。格式、來源連結與字串往返通過均不證明讀字正確。 原生初錄的更細模型識別未知，保持null。不公開館藏影像、裁片、程式、提示或完整私人來源活動紀錄；未提供從影像完整重跑的方法。
+本版以21幀來源影像的37個目標物理面完成AI來源覆核與控制端整合，保留344個文字及附文單位、5,089個Unicode碼點；相對初錄有90個修改或新增單位（含新增1個序頁印頁碼）。原獨立稿的分欄、版心分類差異及p14整欄漏錄紀錄均保留，沒有將最終稿填回原獨立稿。
 
-2026-11-02有限查重：沿用同日既有有限查詞與公開索引原觀測，未找到可直接使用的本件完整文字／OCR／TEI或現代點校；這次封裝沒有新增搜尋。 範圍：既有題名、作者、全文／OCR／TEI查詞與指定網站索引，另含Wikisource主命名空間精確題名查詢；未遍歷全庫。另期書目、引文或影像入口不當作本件可用全文證據。 不宣稱全球首錄。
+仍有49筆疑讀，另有9個已覆核但來源未解的區域；這9處的文字範圍均為unknown，沒有猜補字符或字數，也不改稱未處理頁面或空白。9區與49疑讀是不同計數。這是AI來源校讀紀錄，未經人類專家全文校定，不提供字形準確率或學術正確性認證。
 
-本版 DOI 已預留；本包建立時尚未確認正式發布或公開登記。GitHub規劃入口：https://github.com/poplolioi11/bodleian-sinica2017-yiguan-lueshu-1871。 全版本DOI：unknown（尚未觀察到，不猜相鄰號）。候選包不表示已正式發布；以公開平台讀回為準。後續v0.2.0另版保存獨立AI校讀及訂正，不覆寫本版tag或固定bytes。
+p00題頁、p01序、p04原印版心、圖字／圖說及末段原印表列納入；圖面p22、p24、p29、p30。f01、f21的現代標記及攝影尺／色卡僅描述。折緣缺筆與罕字各處保留暫讀，不由題名或語意補齊。
+
+- [TXT](book.txt)、[JSON](book.json)、[TEI](book.tei.xml)、[來源](source-pages.json)、[未解](uncertainties.json)。
+- [訂正](CORRECTIONS.json)、[訂正說明](CORRECTIONS.md)、[校讀範圍](COLLATION.md)、[品質](QUALITY-AND-CONTRIBUTIONS.md)。
+- [資料字典](DATA-DICTIONARY.md)、[讀者指南](READING-GUIDE.md)、[文字政策](TRANSCRIPTION-POLICY.md)、[驗證](VALIDATION.json)、[權利](RIGHTS.md)、[引用](CITATION.cff)。
+
+獨立AI實際模型為gemini-3.8-flash-high；原生初錄及非盲裁定細分實際模型未知，保持null。未做人類全文雙校、專家審定、同儕審查或準確率量測。AI一致、疑讀數、hash、格式通過或DOI均不證明文字正確。 未公開掃描、裁片、專用程式、提示或完整私人工作紀錄，未提供由影像完整重跑的方法。
+
+初錄[v0.1.0](https://doi.org/10.5281/zenodo.23874194)與固定檔、tag保留。本版內含已核公開初錄快照，不要再拼接為第二份正文。系列DOI：https://doi.org/10.5281/zenodo.23874193。候選包不等於已發布，以平台公開讀回為準。
+
+2026-11-02有限查重：沿用同日既有有限查詞與公開索引原觀測，未找到可直接使用的本件完整文字／OCR／TEI或現代點校；這次封裝沒有新增搜尋。 不宣稱全球首錄。
 
 ## English summary
 
-Initial AI transcription of a 1871 Fuzhou hospital booklet, catalogued as 醫館略述 and printed as 醫館畧述, held as Bodleian Sinica 2017. It preserves historical hospital and charity narratives, donor lists, printed diagram text and captions; historical treatment claims and figures have not been verified. This version is an initial AI transcription; independent reading has not been applied. No human double collation, expert review, peer review or measured accuracy is claimed.
+Independent AI reading of 21 official frames was compared with the frozen initial transcription, followed by non-blind source-image adjudication of 37 target physical faces. This version has 344 units, 5089 Unicode code points, 90 changed unit strings and 49 located unresolved records. Nine inspected residual-ink regions have unresolved text extent and origin. Changes and uncertainties are not error or accuracy estimates. Independent raw observations include omissions and unresolved paratext readings; their original outputs were retained. No human double collation, expert review, peer review or measured accuracy is claimed. This is historical-document digitization and publication without biological research or a modern procedural guide.
 
 Keywords: 醫館略述; 醫館畧述; Sinica 2017; 醫學史; 醫療慈善史; 傳教醫療史; 福州; 晚清; 捐款名錄; 歷史醫療圖說; history of medicine; medical charity; medical missions history; Fuzhou; hospital reports; Chinese medical print culture; 1871; digital humanities; TEI XML.
 
-預留版本 DOI（reserved；尚未確認正式發布）： https://doi.org/10.5281/zenodo.23874194
+預留版本 DOI（reserved；尚未確認正式發布）： https://doi.org/10.5281/zenodo.23874525
