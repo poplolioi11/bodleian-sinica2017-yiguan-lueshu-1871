@@ -1,5 +1,11 @@
 # 醫館略述 · Bodleian Sinica 2017
 
+## 摘要 / Abstract
+
+本資料以牛津大學 Bodleian Libraries 藏 Sinica 2017《醫館略述》（1871）為底本，供醫學史、醫療慈善史及傳教醫療史的原文檢索、來源定位與後續訂正。v0.2.0 比較獨立 AI 讀稿與固定初錄，再對 37 個目標物理面作非盲回圖裁定，包含 344 單位、5,089 個 Unicode 碼點。相較初錄有 90 單位變動或新增；保留 49 筆文字疑讀與 9 處來源範圍未解的殘墨區。公開 TXT、JSON、TEI XML 及訂正資料；本版未經人類全文雙校，變動與疑讀數量不是準確率。
+
+This dataset supports medical-history, medical-charity and medical-missions research through a source-linked transcription of Yi guan lue shu (1871), Bodleian Libraries Sinica 2017. Version 0.2.0 compares independent AI readings with the frozen initial transcription and applies non-blind source adjudication across 37 target physical faces. It contains 344 units and 5,089 Unicode code points, with 90 changed or added units relative to the initial version. Forty-nine textual uncertainties and nine inspected residual-ink regions of unresolved extent remain. Public TXT, JSON, TEI XML and corrections support discovery and further revision. No human double collation has been performed; change and uncertainty counts are not accuracy estimates.
+
 **v0.2.0｜獨立AI讀稿與非盲回圖修訂，保留未解。**
 
 整理者：曲宸宇（Chu, Chen-Yu；GitHub：poplolioi11；[ORCID](https://orcid.org/0009-0003-9738-6914)）。本資料供歷史文字檢索、定位、引用及後續訂正。未驗證歷史醫館自述、金額或治療主張，未進行生物研究、實驗或現代操作指引整理。
