@@ -24,7 +24,7 @@ p00題頁、p01序、p04原印版心、圖字／圖說及末段原印表列納�
 
 獨立AI實際模型為gemini-3.8-flash-high；原生初錄及非盲裁定細分實際模型未知，保持null。未做人類全文雙校、專家審定、同儕審查或準確率量測。AI一致、疑讀數、hash、格式通過或DOI均不證明文字正確。 未公開掃描、裁片、專用程式、提示或完整私人工作紀錄，未提供由影像完整重跑的方法。
 
-初錄[v0.1.0](https://doi.org/10.5281/zenodo.23874194)與固定檔、tag保留。本版內含已核公開初錄快照，不要再拼接為第二份正文。系列DOI：https://doi.org/10.5281/zenodo.23874193。候選包不等於已發布，以平台公開讀回為準。
+初錄[v0.1.0](https://doi.org/10.5281/zenodo.23874194)與固定檔、tag保留。本版內含已核公開初錄快照，不要再拼接為第二份正文。系列DOI：https://doi.org/10.5281/zenodo.23874193。v0.2.0已正式公開，GitHub／Zenodo共8次匿名檔案下載與固定發行bytes相同；31項公開狀態與metadata檢查通過。這些檢查不表示文字準確率。
 
 2026-11-02有限查重：沿用同日既有有限查詞與公開索引原觀測，未找到可直接使用的本件完整文字／OCR／TEI或現代點校；這次封裝沒有新增搜尋。 不宣稱全球首錄。
 
@@ -34,4 +34,4 @@ Independent AI reading of 21 official frames was compared with the frozen initia
 
 Keywords: 醫館略述; 醫館畧述; Sinica 2017; 醫學史; 醫療慈善史; 傳教醫療史; 福州; 晚清; 捐款名錄; 歷史醫療圖說; history of medicine; medical charity; medical missions history; Fuzhou; hospital reports; Chinese medical print culture; 1871; digital humanities; TEI XML.
 
-預留版本 DOI（reserved；尚未確認正式發布）： https://doi.org/10.5281/zenodo.23874525
+已發布版本 DOI： https://doi.org/10.5281/zenodo.23874525
