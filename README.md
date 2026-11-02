@@ -1,10 +1,17 @@
-# 醫館略述 · Bodleian Sinica 2017
+# 醫館略述（1871；Bodleian Sinica 2017） / yi guan lue shu: Transcription dataset
 
 ## 摘要 / Abstract
 
-本資料以牛津大學 Bodleian Libraries 藏 Sinica 2017《醫館略述》（1871）為底本，供醫學史、醫療慈善史及傳教醫療史的原文檢索、來源定位與後續訂正。v0.2.0 比較獨立 AI 讀稿與固定初錄，再對 37 個目標物理面作非盲回圖裁定，包含 344 單位、5,089 個 Unicode 碼點。相較初錄有 90 單位變動或新增；保留 49 筆文字疑讀與 9 處來源範圍未解的殘墨區。公開 TXT、JSON、TEI XML 及訂正資料；本版未經人類全文雙校，變動與疑讀數量不是準確率。
+《醫館略述》（yi guan lue shu）是 1871 年的中文醫館文獻，館目刊地疑定為 [Foochow，福州]，列柯為樑（Dauphin William Osgood）校訂。原書結合基督教施醫宗旨、設院敘述、歷史醫學圖說、捐款名錄與收支文字，可供研究晚清傳教醫療、地方慈善網絡及醫館出版。v0.2.0 依 Bodleian Sinica 2017 的 21 幅影像轉錄 37 個目標物理面，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
 
-This dataset supports medical-history, medical-charity and medical-missions research through a source-linked transcription of Yi guan lue shu (1871), Bodleian Libraries Sinica 2017. Version 0.2.0 compares independent AI readings with the frozen initial transcription and applies non-blind source adjudication across 37 target physical faces. It contains 344 units and 5,089 Unicode code points, with 90 changed or added units relative to the initial version. Forty-nine textual uncertainties and nine inspected residual-ink regions of unresolved extent remain. Public TXT, JSON, TEI XML and corrections support discovery and further revision. No human double collation has been performed; change and uncertainty counts are not accuracy estimates.
+Yi guan lue shu (醫館略述) is a Chinese hospital publication dated 1871, with [Foochow] supplied as the place of publication; the catalogue credits 柯為樑 with revision and identifies him as Dauphin William Osgood. Its Christian charitable purpose, account of establishing hospitals, historical medical illustrations, donor lists and financial statements offer material for studying missionary medicine, local charitable networks and institutional publishing in late Qing China. Version 0.2.0 transcribes 37 target physical faces across 21 images of Bodleian Sinica 2017, providing TXT, JSON and TEI XML with references to the official source images. The text is a provisional AI transcription without human double collation or expert review.
+
+原件與書目入口 / Source witness and catalogue:
+
+- [館藏原件 / Source witness](https://digital.bodleian.ox.ac.uk/objects/f1cdcd6c-9bf3-4475-93e0-e6c58213422f/)
+- [館藏書目 / Catalogue](https://east-asian.bodleian.ox.ac.uk/catalog/volume_1795)
+- [IIIF manifest](https://iiif.bodleian.ox.ac.uk/iiif/manifest/f1cdcd6c-9bf3-4475-93e0-e6c58213422f.json)
+- [館方固定書目 XML / Fixed official catalogue XML](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202017.xml)
 
 **v0.2.0｜獨立AI讀稿與非盲回圖修訂，保留未解。**
 
