@@ -1,0 +1,445 @@
+{
+  "dataset_id": "bodleian-sinica2017",
+  "version": "0.1.0",
+  "coordinate_system": "Unicode code points; zero-based half-open [start,end); unknown extent has null coordinates and surface",
+  "items": [
+    {
+      "page_id": "f02",
+      "id": "unc-0001",
+      "unit_id": "p01-c02",
+      "start": 0,
+      "end": 1,
+      "surface": "粵",
+      "reason": "首字印形內部短畫較小，暫錄粵，保留字形核對。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "粵",
+        "粤"
+      ]
+    },
+    {
+      "page_id": "f03",
+      "id": "unc-0002",
+      "unit_id": "p03-c04",
+      "start": 0,
+      "end": 1,
+      "surface": "憫",
+      "reason": "欄首字右部細畫有磨損，暫讀憫。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "憫",
+        "惻"
+      ]
+    },
+    {
+      "page_id": "f04",
+      "id": "unc-0003",
+      "unit_id": "p05-c06",
+      "start": 19,
+      "end": 20,
+      "surface": "纂",
+      "reason": "字下部細畫需進一步辨明，暫錄纂，不依詞義改字。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "纂",
+        "篡"
+      ]
+    },
+    {
+      "page_id": "f07",
+      "id": "unc-0004",
+      "unit_id": "p10-c01",
+      "start": 23,
+      "end": 24,
+      "surface": "癰",
+      "reason": "欄末字內部密畫較緊，暫讀癰，需原圖再核。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "癰",
+        "癱"
+      ]
+    },
+    {
+      "page_id": "f07",
+      "id": "unc-0005",
+      "unit_id": "p10-c02",
+      "start": 14,
+      "end": 15,
+      "surface": "牛",
+      "reason": "食後字上部短畫較弱，依可見筆畫暫讀牛，不按文意改字。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "牛",
+        "生"
+      ]
+    },
+    {
+      "page_id": "f08",
+      "id": "unc-0006",
+      "unit_id": "p12-c05",
+      "start": 7,
+      "end": 9,
+      "surface": "之則",
+      "reason": "末字暫讀則，保留不通順原讀待核，不依文意修通。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "之則",
+        "之期"
+      ]
+    },
+    {
+      "page_id": "f09",
+      "id": "unc-0007",
+      "unit_id": "p14-c02",
+      "start": 2,
+      "end": 4,
+      "surface": "三年",
+      "reason": "數字中間短橫細弱，暫讀三，需再核原印筆畫。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "三年",
+        "二年"
+      ]
+    },
+    {
+      "page_id": "f09",
+      "id": "unc-0008",
+      "unit_id": "p15-c07",
+      "start": 0,
+      "end": 1,
+      "surface": "脅",
+      "reason": "欄首字月與劦的相對配置需再核，暫讀脅，不正規化。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "脅",
+        "脇"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0009",
+      "unit_id": "p17-c01",
+      "start": 5,
+      "end": 7,
+      "surface": "鷄哪",
+      "reason": "首字密畫與鳥部細節待核，暫按奚鳥形錄鷄；p17-c08同字。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "鷄哪",
+        "雞哪"
+      ]
+    },
+    {
+      "page_id": "f10",
+      "id": "unc-0010",
+      "unit_id": "p17-c05",
+      "start": 5,
+      "end": 6,
+      "surface": "槩",
+      "reason": "木部與既部配置待再核，暫按上下形錄槩。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "槩",
+        "概"
+      ]
+    },
+    {
+      "page_id": "f11",
+      "id": "unc-0011",
+      "unit_id": "p18-c03",
+      "start": 15,
+      "end": 17,
+      "surface": "鷄哪",
+      "reason": "第一字上部密集，下部鳥形細筆；暫讀鷄，須二校。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "鷄哪",
+        "雞哪",
+        "嚥哪"
+      ]
+    },
+    {
+      "page_id": "f11",
+      "id": "unc-0012",
+      "unit_id": "p18-c05",
+      "start": 2,
+      "end": 4,
+      "surface": "鷄哪",
+      "reason": "與本頁c03同字形，暫同讀；未據藥名改字。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "鷄哪",
+        "雞哪",
+        "嚥哪"
+      ]
+    },
+    {
+      "page_id": "f11",
+      "id": "unc-0013",
+      "unit_id": "p19-c01",
+      "start": 16,
+      "end": 20,
+      "surface": "精鎡嘔散",
+      "reason": "中間金旁字細畫密，暫讀鎡；需原圖筆畫覆核。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "精鎡嘔散",
+        "精鏑嘔散"
+      ]
+    },
+    {
+      "page_id": "f12",
+      "id": "unc-0014",
+      "unit_id": "p21-c07",
+      "start": 9,
+      "end": 11,
+      "surface": "開接",
+      "reason": "末字左扌右妾形，暫錄接，未按文意修為腹。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "開接",
+        "開腹"
+      ]
+    },
+    {
+      "page_id": "f13",
+      "id": "unc-0015",
+      "unit_id": "p22-c03",
+      "start": 0,
+      "end": 6,
+      "surface": "通溺管銀管圖",
+      "reason": "末第二字竹頭下似官，暫管。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "通溺管銀管圖",
+        "通溺管銀筒圖"
+      ]
+    },
+    {
+      "page_id": "f13",
+      "id": "unc-0016",
+      "unit_id": "p22-c05",
+      "start": 2,
+      "end": 3,
+      "surface": "鉗",
+      "reason": "字右似甘但細線糊合，暫讀鉗。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "鉗",
+        "鉆"
+      ]
+    },
+    {
+      "page_id": "f14",
+      "id": "unc-0017",
+      "unit_id": "p25-c02",
+      "start": 0,
+      "end": 2,
+      "surface": "唐性",
+      "reason": "第二字左旁似忄，照見暫錄性。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "唐性",
+        "唐姓"
+      ]
+    },
+    {
+      "page_id": "f16",
+      "id": "unc-0018",
+      "unit_id": "p29-c02",
+      "start": 4,
+      "end": 5,
+      "surface": "弍",
+      "reason": "貳字形處見二橫與斜鉤，無清楚貝部，暫錄弍。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "弍",
+        "貳"
+      ]
+    },
+    {
+      "page_id": "f17",
+      "id": "unc-0019",
+      "unit_id": "p31-c01",
+      "start": 13,
+      "end": 15,
+      "surface": "錫鋪",
+      "reason": "末字右形甫，暫錄鋪；原詞不據職業推改。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "錫鋪",
+        "錫錆"
+      ]
+    },
+    {
+      "page_id": "f18",
+      "id": "unc-0020",
+      "unit_id": "p32-c02",
+      "start": 8,
+      "end": 10,
+      "surface": "纔起",
+      "reason": "糸旁後字內筆畫擁擠，暫讀纔。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "纔起",
+        "纒起"
+      ]
+    },
+    {
+      "page_id": "f18",
+      "id": "unc-0021",
+      "unit_id": "p32-c05",
+      "start": 0,
+      "end": 2,
+      "surface": "饒姓",
+      "reason": "姓前字左旁近食或金，右堯清楚，暫饒。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "饒姓",
+        "鐃姓"
+      ]
+    },
+    {
+      "page_id": "f18",
+      "id": "unc-0022",
+      "unit_id": "p33-c08",
+      "start": 18,
+      "end": 19,
+      "surface": "翳",
+      "reason": "上半與下部密筆糊合，暫錄翳；不可據現代病名決字。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "翳",
+        "霧"
+      ]
+    },
+    {
+      "page_id": "f19",
+      "id": "unc-0023",
+      "unit_id": "p34-c02",
+      "start": 0,
+      "end": 2,
+      "surface": "蠱腫",
+      "reason": "首字上部密集像多虫，下部似皿，暫蠱。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "蠱腫",
+        "蠧腫"
+      ]
+    },
+    {
+      "page_id": "f19",
+      "id": "unc-0024",
+      "unit_id": "p35-c02",
+      "start": 0,
+      "end": 3,
+      "surface": "鄧和洼",
+      "reason": "第三字氵右方上下橫畫重，暫洼。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "鄧和洼",
+        "鄧和汪"
+      ]
+    },
+    {
+      "page_id": "f19",
+      "id": "unc-0025",
+      "unit_id": "p35-c04",
+      "start": 0,
+      "end": 3,
+      "surface": "吳旬卿",
+      "reason": "第二字勹內短筆模糊，暫旬。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "吳旬卿",
+        "吳勾卿"
+      ]
+    },
+    {
+      "page_id": "f19",
+      "id": "unc-0026",
+      "unit_id": "p35-c09",
+      "start": 0,
+      "end": 3,
+      "surface": "何靄臣",
+      "reason": "中間字雨頭下密畫，暫靄。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "何靄臣",
+        "何靈臣"
+      ]
+    },
+    {
+      "page_id": "f20",
+      "id": "unc-0027",
+      "unit_id": "p36-c11",
+      "start": 9,
+      "end": 14,
+      "surface": "西國人各藥",
+      "reason": "國後可見人形兩撇捺及各字，字間結構不明，暫保留人各。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "西國人各藥",
+        "西國入各藥",
+        "西國各藥"
+      ]
+    },
+    {
+      "page_id": "f20",
+      "id": "unc-0028",
+      "unit_id": "p36-c07",
+      "start": 9,
+      "end": 10,
+      "surface": "叁",
+      "reason": "數字末字下半見三橫形，暫叁。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "叁",
+        "參"
+      ]
+    },
+    {
+      "page_id": "f20",
+      "id": "unc-0029",
+      "unit_id": "p36-c13",
+      "start": 15,
+      "end": 16,
+      "surface": "叁",
+      "reason": "數字末字下半見三橫形，暫叁。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "叁",
+        "參"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: Please cite the fixed version and check quotations against the Bodleian images.
+type: dataset
+title: 醫館略述（1871，Bodleian Sinica 2017）：AI初錄資料集
+authors:
+- family-names: Chu
+  given-names: Chen-Yu
+  orcid: https://orcid.org/0009-0003-9738-6914
+  website: https://github.com/poplolioi11
+version: 0.1.0
+date-released: '2026-11-02'
+abstract: Initial AI transcription of a 1871 Fuzhou hospital booklet, catalogued as
+  醫館略述 and printed as 醫館畧述, held as Bodleian Sinica 2017. It preserves historical
+  hospital and charity narratives, donor lists, printed diagram text and captions;
+  historical treatment claims and figures have not been verified. Initial AI transcription;
+  independent reading not applied; no human double collation, expert review, peer
+  review or measured accuracy.
+url: https://github.com/poplolioi11/bodleian-sinica2017-yiguan-lueshu-1871
+keywords:
+- 醫館略述
+- 醫館畧述
+- Sinica 2017
+- 醫學史
+- 醫療慈善史
+- 傳教醫療史
+- 福州
+- 晚清
+- 捐款名錄
+- 歷史醫療圖說
+- history of medicine
+- medical charity
+- medical missions history
+- Fuzhou
+- hospital reports
+- Chinese medical print culture
+- '1871'
+- digital humanities
+- TEI XML
+doi: 10.5281/zenodo.23874194
