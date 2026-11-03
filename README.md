@@ -1,8 +1,8 @@
-# 醫館略述（1871；Bodleian Sinica 2017） / yi guan lue shu: Transcription dataset
+# 醫館略述(1871;Bodleian Sinica 2017) / Yi guan lue shu [Brief account of a medical institution]: Transcription dataset
 
 ## 摘要 / Abstract
 
-《醫館略述》（yi guan lue shu）是 1871 年的中文醫館文獻，館目刊地疑定為 [Foochow，福州]，列柯為樑（Dauphin William Osgood）校訂。原書結合基督教施醫宗旨、設院敘述、歷史醫學圖說、捐款名錄與收支文字，可供研究晚清傳教醫療、地方慈善網絡及醫館出版。v0.2.0 依 Bodleian Sinica 2017 的 21 幅影像轉錄 37 個目標物理面，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
+《醫館略述》（Yi guan lue shu）是 1871 年的中文醫館文獻，館目刊地疑定為 [Foochow，福州]，列柯為樑（Dauphin William Osgood）校訂。原書結合基督教施醫宗旨、設院敘述、歷史醫學圖說、捐款名錄與收支文字，可供研究晚清傳教醫療、地方慈善網絡及醫館出版。v0.2.0 依 Bodleian Sinica 2017 的 21 幅影像轉錄 37 個目標物理面，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
 
 Yi guan lue shu (醫館略述) is a Chinese hospital publication dated 1871, with [Foochow] supplied as the place of publication; the catalogue credits 柯為樑 with revision and identifies him as Dauphin William Osgood. Its Christian charitable purpose, account of establishing hospitals, historical medical illustrations, donor lists and financial statements offer material for studying missionary medicine, local charitable networks and institutional publishing in late Qing China. Version 0.2.0 transcribes 37 target physical faces across 21 images of Bodleian Sinica 2017, providing TXT, JSON and TEI XML with references to the official source images. The text is a provisional AI transcription without human double collation or expert review.
 
@@ -12,6 +12,18 @@ Yi guan lue shu (醫館略述) is a Chinese hospital publication dated 1871, wit
 - [館藏書目 / Catalogue](https://east-asian.bodleian.ox.ac.uk/catalog/volume_1795)
 - [IIIF manifest](https://iiif.bodleian.ox.ac.uk/iiif/manifest/f1cdcd6c-9bf3-4475-93e0-e6c58213422f.json)
 - [館方固定書目 XML / Fixed official catalogue XML](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202017.xml)
+
+### 題名與語言說明 / Title and language notes
+
+方括號英譯為編者意譯，非館目正式題名。Bracketed English titles are editorial discovery glosses, not official catalogue English titles.
+
+館目原羅馬字題名：「yi guan lue shu」。展示：「Yi guan lue shu」；僅首字母大小寫依展示規則調整，保留館目拼法及長音符號。
+
+題名來源 / Title source: [https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202017.xml](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202017.xml)
+
+語言層次 / Language layers: 原文依有限公開非操作性文字證據標 lzh，屬編者語體分類，未經全書專家審定。 eng 標記現行英文摘要，不表示固定封存附件全部為英文。 館目原語言代碼 chi 保留作來源資訊，不與本文語體分類混同。
+
+語言來源 / Language source: [https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202017.xml](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202017.xml)
 
 **v0.2.0｜獨立AI讀稿與非盲回圖修訂，保留未解。**
 
