@@ -60,3 +60,5 @@ Independent AI reading of 21 official frames was compared with the frozen initia
 Keywords: 醫館略述; 醫館畧述; Sinica 2017; 醫學史; 醫療慈善史; 傳教醫療史; 福州; 晚清; 捐款名錄; 歷史醫療圖說; history of medicine; medical charity; medical missions history; Fuzhou; hospital reports; Chinese medical print culture; 1871; digital humanities; TEI XML.
 
 已發布版本 DOI： https://doi.org/10.5281/zenodo.23874525
+
+引用中介資料更正僅適用目前 main 的 `CITATION.cff`；固定 tag／ZIP 與其 `SHA256SUMS` 保留原樣，固定包校驗表不套用到後續的 main 引用檔。Citation metadata corrections apply to the current main CITATION.cff; fixed tags/ZIPs and their checksums remain historical release snapshots.

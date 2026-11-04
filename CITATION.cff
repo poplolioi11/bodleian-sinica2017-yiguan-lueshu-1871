@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: Please cite the fixed version and verify quotations against the source images.
 type: dataset
-title: 醫館略述（1871，Bodleian Sinica 2017）：AI獨立校讀與非盲回圖修訂資料集
+title: "醫館略述(1871;Bodleian Sinica 2017) / Yi guan lue shu [Brief account of a medical institution]: Transcription dataset"
 authors:
 - family-names: Chu
   given-names: Chen-Yu
