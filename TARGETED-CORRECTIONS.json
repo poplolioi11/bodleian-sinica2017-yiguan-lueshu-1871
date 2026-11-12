@@ -1,0 +1,303 @@
+{
+  "schema": "targeted-nonblind-source-corrections/1",
+  "dataset_id": "bodleian-sinica2017",
+  "base_version": "0.2.0",
+  "result_version": "0.2.1",
+  "review_role": "targeted nonblind source review; candidates already exposed; not a new whole-book independent collation",
+  "cases": [
+    {
+      "issue_id": "reader-note-b3-10",
+      "decision": "retain",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p25-c02",
+          "range": {
+            "start": 1,
+            "end": 2,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "性",
+          "after": "性",
+          "full_unit_before": "唐性、南嶼人、年四十餘歲、城內祥陞戲班扛戲箱",
+          "full_unit_after": "唐性、南嶼人、年四十餘歲、城內祥陞戲班扛戲箱",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b86cb4cc-0ddd-44b1-805e-c7b90249677f/full/3000,/0/default.jpg",
+            "sha256": "1f7dfd407759ddf0fc584214389e7b6e61d1a4f6680386febf769c08daf12e79",
+            "width": 3000,
+            "height": 3325
+          },
+          "bbox": [
+            1140,
+            630,
+            1275,
+            1020
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "唐後左旁可見豎心的主豎與兩短點，右為生；不是女旁。底本性保留，姓僅為閱讀層質詢。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b3-11",
+      "decision": "retain",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p16-c05",
+          "range": {
+            "start": 16,
+            "end": 18,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "下三",
+          "after": "下三",
+          "full_unit_before": "昔在大美國時、見一屋有三層樓、在下三層居住",
+          "full_unit_after": "昔在大美國時、見一屋有三層樓、在下三層居住",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d51d131-6cfe-461c-8489-6bc680e3544f/full/3000,/0/default.jpg",
+            "sha256": "fa0be9cad6f9bc3885c58924848016e30f99f48d715470f74a603295d1aeb9a2",
+            "width": 3000,
+            "height": 3325
+          },
+          "bbox": [
+            1910,
+            1650,
+            2060,
+            2210
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "下後數字三條橫筆均可見，中橫獨立；不因三層樓的上下邏輯改成二。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b3-12",
+      "decision": "accept",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p12-c06",
+          "range": {
+            "start": 19,
+            "end": 20,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "八",
+          "after": "人",
+          "full_unit_before": "習、院中醫理精通、各有專長者、多則二十八、至少",
+          "full_unit_after": "習、院中醫理精通、各有專長者、多則二十人、至少",
+          "decision": "accept",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2972df1d-bcd3-469a-aae0-7765e9085b24/full/3000,/0/default.jpg",
+            "sha256": "85c3ae839b3e52b72c016b2e65db5c478d0380d692065e36719a2f97184fec4b",
+            "width": 3000,
+            "height": 3325
+          },
+          "bbox": [
+            1770,
+            2060,
+            1910,
+            2620
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "十後字兩筆在上部接合，左撇由右捺上端分出，為人；非八的左右分開。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b3-13",
+      "decision": "retain",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p13-c05",
+          "range": {
+            "start": 1,
+            "end": 2,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "會",
+          "after": "會",
+          "full_unit_before": "員會將斬決洋盜兩犯、給付醫生、是日來觀者、有",
+          "full_unit_after": "員會將斬決洋盜兩犯、給付醫生、是日來觀者、有",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2972df1d-bcd3-469a-aae0-7765e9085b24/full/3000,/0/default.jpg",
+            "sha256": "85c3ae839b3e52b72c016b2e65db5c478d0380d692065e36719a2f97184fec4b",
+            "width": 3000,
+            "height": 3325
+          },
+          "bbox": [
+            700,
+            640,
+            850,
+            1080
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "頂部是人形合攏的亼，下有橫隔及日，非曾的兩點八頭；保留會。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b3-14",
+      "decision": "retain",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p12-c05",
+          "range": {
+            "start": 7,
+            "end": 9,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "之則",
+          "after": "之則",
+          "full_unit_before": "者約二年半三年之則、後則到大縣城大醫院學",
+          "full_unit_after": "者約二年半三年之則、後則到大縣城大醫院學",
+          "decision": "retain",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2972df1d-bcd3-469a-aae0-7765e9085b24/full/3000,/0/default.jpg",
+            "sha256": "85c3ae839b3e52b72c016b2e65db5c478d0380d692065e36719a2f97184fec4b",
+            "width": 3000,
+            "height": 3325
+          },
+          "bbox": [
+            1920,
+            1130,
+            2055,
+            1690
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "之後左為貝形，上框中橫下足，右為刂，正是則；沒有久的斜撇捺字形。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b3-15",
+      "decision": "accept",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p31-c01",
+          "range": {
+            "start": 14,
+            "end": 15,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "錆",
+          "after": "錯",
+          "full_unit_before": "柯姓漳州人、年二十八歲、打錫錆爲業、自少時上",
+          "full_unit_after": "柯姓漳州人、年二十八歲、打錫錯爲業、自少時上",
+          "decision": "accept",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/acf99cf8-0109-4bbe-a5df-ad88385b925a/full/3000,/0/default.jpg",
+            "sha256": "a24adf63c879b47dcb504937734fd5a78f3bb00a03848bb9ed43350a0ae89e10",
+            "width": 3000,
+            "height": 3325
+          },
+          "bbox": [
+            1300,
+            1380,
+            1440,
+            1930
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "金旁右上是龷的兩豎兩橫，下部封口日內一橫；為昔而非青，採錯。未採讀者箔候選，原圖沒有竹頭或泊。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    },
+    {
+      "issue_id": "reader-note-b3-16",
+      "decision": "accept",
+      "occurrence_count": 1,
+      "occurrences": [
+        {
+          "unit_id": "p10-c02",
+          "range": {
+            "start": 15,
+            "end": 16,
+            "unit": "Unicode codepoint",
+            "convention": "zero-based half-open; fixed v0.2.0 unit string"
+          },
+          "before": "牛",
+          "after": "生",
+          "full_unit_before": "疽、大腎囊、內外痔、補嘴、救食牛洋烟、諸症、或用刀",
+          "full_unit_after": "疽、大腎囊、內外痔、補嘴、救食生洋烟、諸症、或用刀",
+          "decision": "accept",
+          "source": {
+            "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c4849da9-ce30-4891-9c3b-eb6675ce8326/full/3000,/0/default.jpg",
+            "sha256": "89c6cf1221184598489b49786506ea30722e6e698470decf227f9a673b4dba4c",
+            "width": 3000,
+            "height": 3325
+          },
+          "bbox": [
+            2350,
+            1420,
+            2475,
+            1910
+          ],
+          "bbox_precision": "context-region, not per-character segmentation",
+          "reason": "可見上短橫、中橫及下方完整底橫，中央豎貫穿而止於底橫，為生。",
+          "influence_codes": [
+            "image",
+            "internal-consistency"
+          ],
+          "unresolved_reason": null
+        }
+      ]
+    }
+  ],
+  "extra_preface_operations": [],
+  "extra_preface_scope": null,
+  "core_case_states": {
+    "accept": 3,
+    "retain": 4,
+    "unresolved": 0
+  },
+  "literal_operations": 3,
+  "literal_codepoints_replaced": 3,
+  "normalization": "none",
+  "source_images_included": false,
+  "human_double_collation": "not-performed",
+  "expert_review": "not-performed",
+  "accuracy_measured": false
+}

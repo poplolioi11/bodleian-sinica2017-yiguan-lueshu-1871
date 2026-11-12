@@ -1,0 +1,214 @@
+{
+  "status": "unreleased-local-review-candidate",
+  "version": "0.2.1",
+  "title": "醫館略述(1871;Bodleian Sinica 2017) / Yi guan lue shu [Brief account of a medical institution]: Transcription dataset",
+  "creators": [
+    {
+      "person_or_org": {
+        "type": "personal",
+        "name": "Chu, Chen-Yu",
+        "given_name": "Chen-Yu",
+        "family_name": "Chu",
+        "identifiers": [
+          {
+            "identifier": "0009-0003-9738-6914",
+            "scheme": "orcid"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "醫館略述",
+    "醫館畧述",
+    "Sinica 2017",
+    "醫學史",
+    "醫療慈善史",
+    "傳教醫療史",
+    "福州",
+    "晚清",
+    "捐款名錄",
+    "歷史醫療圖說",
+    "history of medicine",
+    "medical charity",
+    "medical missions history",
+    "Fuzhou",
+    "hospital reports",
+    "Chinese medical print culture",
+    "1871",
+    "digital humanities",
+    "TEI XML"
+  ],
+  "languages": [
+    {
+      "id": "lzh",
+      "title": {
+        "en": "Literary Chinese"
+      }
+    },
+    {
+      "id": "eng",
+      "title": {
+        "en": "English"
+      }
+    }
+  ],
+  "description": "<p>《醫館略述》（Yi guan lue shu）是1871年的中文醫館文獻，館目刊地供定為 [Foochow，福州]，列柯為樑（Dauphin William Osgood）校訂。原書結合基督教施醫宗旨、設院敘述、圖說、捐款名錄與收支文字，可供晚清傳教醫療、地方慈善網絡及醫館出版研究。本資料集依 Bodleian Sinica 2017 的21幅影像提供37個指定物理面的 TXT、JSON、TEI XML、疑讀與來源對應。文字為 AI 暫定轉錄並經局部原圖修訂，未經人類全文雙校或專家審定。</p><p>Yi guan lue shu [Brief account of a medical institution] is an 1871 Chinese hospital publication, catalogued with [Foochow] as its place of publication and 柯為樑 (Dauphin William Osgood) credited with revision. Its Christian charitable purpose, hospital narrative, illustrations, donor lists and financial accounts support research on medical missions, local charitable networks and hospital publishing. Based on 21 images of Bodleian Sinica 2017, the dataset provides TXT, JSON and TEI XML for 37 designated physical faces, with uncertainties and source mappings. The provisional AI transcription includes selected source-image corrections; full human double collation and expert review have not been performed.</p>",
+  "additional_descriptions": [
+    {
+      "type": {
+        "id": "notes"
+      },
+      "description": "Source: https://digital.bodleian.ox.ac.uk/objects/f1cdcd6c-9bf3-4475-93e0-e6c58213422f/ IIIF: https://iiif.bodleian.ox.ac.uk/iiif/manifest/f1cdcd6c-9bf3-4475-93e0-e6c58213422f.json Formats: TXT, JSON, TEI XML. Scope: 21 fixed images / 37 designated physical faces. Literary Chinese text with English documentation. Historical text and faithful mechanical transcription receive no new exclusive restriction; copyrightable original documentation and arrangement are CC BY 4.0. Source scans/crops are excluded and retain the separate Bodleian terms in RIGHTS.md and LICENSE.md, including CC BY-NC 4.0 where recorded. Bracketed English titles are editorial translations. Prior v0.2.0 DOI: 10.5281/zenodo.23874525; this proposed v0.2.1 DOI is unknown and omitted."
+    },
+    {
+      "type": {
+        "id": "methods"
+      },
+      "description": "# Methods / 處理方法\n\nv0.2.1 applies a targeted, nonblind review of 7 selected reader questions against the same fixed Bodleian images. Proposed readings and their rationale were already known before image review. Full parent frames were viewed together with original-pixel details where needed. 3 individually specified literal operations (3 codepoints) are adopted; retained and unresolved proposals are listed with source references in TARGETED-CORRECTIONS.json. This round is not a fresh whole-book independent collation.\n\n\n\nThe previous v0.2.0 whole-book AI observation, comparison and source-adjudication history remains preserved in HISTORICAL-METHODS-v0.2.0.md and the existing JSON history. Its coverage and failed or incomplete activities are not upgraded by this selected review. Historical count statements describe that version; current counts are 344 units, 5089 literal Unicode codepoints and 48 active uncertainty declarations. Codepoint counts include reference strings where present and are not source character counts or error rates.\n\nNo Unicode normalization, global variant or punctuation replacement, reading-order change, gaiji-ID change, or modernization is applied. Fixed unit strings drive the JSON, TXT and TEI XML exports without new model rewriting. Unknown glyph extent remains unknown; original uncertainties and superseded readings remain in version history. The two current gaiji reference notations, where present, remain unchanged.\n\nFull human double collation, expert review, peer review and accuracy measurement have not been performed. Exact model identifiers, reasoning settings and complete token counters for the native AI review were not reported and remain unknown. Format, schema, hash and round-trip checks establish engineering properties only. The minimal TEI P5 projection is not a complete scholarly apparatus; no custom ODD or Schematron is claimed.\n\nSource scans and crops, dedicated programs, prompts and complete private working records are excluded. The complete image-to-text production method is not publicly reproducible from this package. See RIGHTS.md and LICENSE.md for the distinct historical-text, original-documentation and Bodleian-image terms. This is historical-document transcription; no biological research or modern clinical instructions are provided.\n"
+    }
+  ],
+  "rights": [
+    {
+      "id": "cc-by-4.0",
+      "title": {
+        "en": "Creative Commons Attribution 4.0 International"
+      },
+      "description": {
+        "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+      },
+      "icon": "cc-by-icon",
+      "props": {
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "scheme": "spdx"
+      }
+    }
+  ],
+  "rights_scope": "Machine-readable CC BY 4.0 is for copyrightable original documentation and arrangement; historical text and source-image rights remain separately described in RIGHTS.md/LICENSE.md.",
+  "source": {
+    "object_url": "https://digital.bodleian.ox.ac.uk/objects/f1cdcd6c-9bf3-4475-93e0-e6c58213422f/",
+    "manifest_url": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/f1cdcd6c-9bf3-4475-93e0-e6c58213422f.json",
+    "shelfmark": "Bodleian Libraries, Sinica 2017",
+    "edition": "館藏書目年份1871；書目地點Serica [Foochow]。題頁本版暫讀「醫舘畧述」，紀年「同治十年孟冬」。刊記及出版者：unknown（未核定，不由書目地點推定）。",
+    "author_attribution": "題頁本版歷史責任題署：大美國醫士柯爲樑校訂。"
+  },
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/poplolioi11/bodleian-sinica2017-yiguan-lueshu-1871/releases/tag/v0.2.0",
+      "scheme": "url",
+      "relation_type": {
+        "id": "isnewversionof"
+      },
+      "resource_type": {
+        "id": "dataset",
+        "title": {
+          "de": "Datensatz",
+          "en": "Dataset"
+        }
+      }
+    },
+    {
+      "identifier": "https://digital.bodleian.ox.ac.uk/objects/f1cdcd6c-9bf3-4475-93e0-e6c58213422f/",
+      "scheme": "url",
+      "relation_type": {
+        "id": "isderivedfrom",
+        "title": {
+          "de": "Wird abgeleitet von",
+          "en": "Is derived from"
+        }
+      },
+      "resource_type": {
+        "id": "publication-book",
+        "title": {
+          "de": "Buch",
+          "en": "Book"
+        }
+      }
+    },
+    {
+      "identifier": "https://east-asian.bodleian.ox.ac.uk/catalog/volume_1795",
+      "scheme": "url",
+      "relation_type": {
+        "id": "references",
+        "title": {
+          "de": "Referenziert",
+          "en": "References"
+        }
+      }
+    },
+    {
+      "identifier": "https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%202017.xml",
+      "scheme": "url",
+      "relation_type": {
+        "id": "references",
+        "title": {
+          "de": "Referenziert",
+          "en": "References"
+        }
+      }
+    },
+    {
+      "identifier": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/f1cdcd6c-9bf3-4475-93e0-e6c58213422f.json",
+      "scheme": "url",
+      "relation_type": {
+        "id": "references",
+        "title": {
+          "de": "Referenziert",
+          "en": "References"
+        }
+      }
+    },
+    {
+      "identifier": "https://serica.ie/SericaProject/data/976.html",
+      "scheme": "url",
+      "relation_type": {
+        "id": "references",
+        "title": {
+          "de": "Referenziert",
+          "en": "References"
+        }
+      }
+    },
+    {
+      "identifier": "10.5281/zenodo.23874525",
+      "scheme": "doi",
+      "relation_type": {
+        "id": "isnewversionof"
+      }
+    }
+  ],
+  "prior_version_doi": "10.5281/zenodo.23874525",
+  "repository": "https://github.com/poplolioi11/bodleian-sinica2017-yiguan-lueshu-1871",
+  "counts": {
+    "canvases": 21,
+    "physical_inner_faces": 36,
+    "target_content_physical_faces": 37,
+    "initial_units": 271,
+    "observed_paratext_units": 73,
+    "units": 344,
+    "codepoints": 5089,
+    "uncertainty_records": 48,
+    "square_placeholders": 0,
+    "roles": {
+      "body": 194,
+      "caption": 7,
+      "colophon": 3,
+      "diagram-label": 4,
+      "paratext": 1,
+      "preface": 20,
+      "printed-page-number": 18,
+      "running-title": 36,
+      "section-running-title": 10,
+      "small-note": 6,
+      "table": 25,
+      "title": 11,
+      "版心序次": 2,
+      "版心篇題": 7
+    },
+    "changed_unit_count": 90,
+    "added_unit_count": 1,
+    "removed_unit_count": 0,
+    "initial_uncertainty_records_processed": 29,
+    "untranscribed_region_count": 9
+  }
+}

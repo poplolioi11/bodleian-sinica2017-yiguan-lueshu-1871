@@ -1,3 +1,5 @@
+> 本文件原有的 v0.2.0 校讀與數量敘述保留為歷史；本版 v0.2.1 的局部非盲覆核、現行數量及未解狀態見 [METHODS.md](METHODS.md) 與 [TARGETED-CORRECTIONS.md](TARGETED-CORRECTIONS.md)。
+
 # 資料字典
 
 book.json為本版固定主文。pages[]按官方影像幀排列，page_id=fXX；unit ID開頭pXX為物理面，與葉數及原刻頁碼不同。units[].layer=original-print，role保留正文、圖字、表列、細註等角色。side為全幅影像left/right；bbox=null，無逐字座標。

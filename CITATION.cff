@@ -1,25 +1,24 @@
 cff-version: 1.2.0
 message: Please cite the fixed version and verify quotations against the source images.
 type: dataset
-title: "醫館略述(1871;Bodleian Sinica 2017) / Yi guan lue shu [Brief account of a medical institution]: Transcription dataset"
+title: '醫館略述(1871;Bodleian Sinica 2017) / Yi guan lue shu [Brief account of a medical
+  institution]: Transcription dataset'
 authors:
 - family-names: Chu
   given-names: Chen-Yu
   orcid: https://orcid.org/0009-0003-9738-6914
   website: https://github.com/poplolioi11
-version: 0.2.0
-date-released: '2026-11-02'
-url: https://github.com/poplolioi11/bodleian-sinica2017-yiguan-lueshu-1871
-abstract: Independent AI reading of 21 official frames was compared with the frozen
-  initial transcription, followed by non-blind source-image adjudication of 37 target
-  physical faces. This version has 344 units, 5089 Unicode code points, 90 changed
-  unit strings and 49 located unresolved records. Nine inspected residual-ink regions
-  have unresolved text extent and origin. Changes and uncertainties are not error
-  or accuracy estimates. Independent raw observations include omissions and unresolved
-  paratext readings; their original outputs were retained. No human double collation,
-  expert review, peer review or measured accuracy is claimed. This is historical-document
-  digitization and publication without biological research or a modern procedural
-  guide.
+version: 0.2.1
+url: https://github.com/poplolioi11/bodleian-sinica2017-yiguan-lueshu-1871/releases/tag/v0.2.1
+abstract: Yi guan lue shu [Brief account of a medical institution] is an 1871 Chinese
+  hospital publication, catalogued with [Foochow] as its place of publication and
+  柯為樑 (Dauphin William Osgood) credited with revision. Its Christian charitable purpose,
+  hospital narrative, illustrations, donor lists and financial accounts support research
+  on medical missions, local charitable networks and hospital publishing. Based on
+  21 images of Bodleian Sinica 2017, the dataset provides TXT, JSON and TEI XML for
+  37 designated physical faces, with uncertainties and source mappings. The provisional
+  AI transcription includes selected source-image corrections; full human double collation
+  and expert review have not been performed.
 keywords:
 - 醫館略述
 - 醫館畧述
@@ -40,4 +39,6 @@ keywords:
 - '1871'
 - digital humanities
 - TEI XML
-doi: 10.5281/zenodo.23874525
+date-released: '2026-11-12'
+doi: 10.5281/zenodo.24156829
+license: CC-BY-4.0

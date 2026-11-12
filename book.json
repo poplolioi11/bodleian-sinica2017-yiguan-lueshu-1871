@@ -1,7 +1,7 @@
 {
   "dataset_id": "bodleian-sinica2017",
-  "version": "0.2.0",
-  "title": "醫館略述（1871，Bodleian Sinica 2017）：AI獨立校讀與非盲回圖修訂資料集",
+  "version": "0.2.1",
+  "title": "醫館略述(1871;Bodleian Sinica 2017) / Yi guan lue shu [Brief account of a medical institution]: Transcription dataset",
   "quality": {
     "status": "AI-independent-reading-and-nonblind-source-adjudication",
     "independent_reading_applied": true,
@@ -18,7 +18,8 @@
     },
     "controller_blinded": false,
     "native_actual_model": null,
-    "untranscribed_regions": "nine inspected residual-ink regions; text extent and relation to this face unresolved"
+    "untranscribed_regions": "nine inspected residual-ink regions; text extent and relation to this face unresolved",
+    "targeted_review_status": "selected-nonblind-source-review-with-unresolved-retained"
   },
   "source": {
     "object_url": "https://digital.bodleian.ox.ac.uk/objects/f1cdcd6c-9bf3-4475-93e0-e6c58213422f/",
@@ -35,7 +36,7 @@
     "observed_paratext_units": 73,
     "units": 344,
     "codepoints": 5089,
-    "uncertainty_records": 49,
+    "uncertainty_records": 48,
     "square_placeholders": 0,
     "roles": {
       "body": 194,
@@ -3781,6 +3782,30 @@
       "source_review_scope": "全21幅固定影像已有獨立AI讀稿；非盲裁定針對37物理面完整裁片、版心及必要細節回圖，不把引用全幅來源等同每位裁定者均逐幅直接看過全圖。",
       "raw_observation_limits": "獨立原稿分段與初錄不同，曾漏列p14一整欄；版心及附文另有遺漏、角色誤判與未解。另作36面版心原像素補讀，仍有無法辨清者；原始獨立及補讀輸出保留，不回填裁定字串。格式修復只修JSON結構，未改字串。",
       "inventory_summary": "本版以21幀來源影像的37個目標物理面完成AI來源覆核與控制端整合，保留344個文字及附文單位、5,089個Unicode碼點；相對初錄有90個修改或新增單位（含新增1個序頁印頁碼）。原獨立稿的分欄、版心分類差異及p14整欄漏錄紀錄均保留，沒有將最終稿填回原獨立稿。\n\n仍有49筆疑讀，另有9個已覆核但來源未解的區域；這9處的文字範圍均為unknown，沒有猜補字符或字數，也不改稱未處理頁面或空白。9區與49疑讀是不同計數。這是AI來源校讀紀錄，未經人類專家全文校定，不提供字形準確率或學術正確性認證。"
+    },
+    "targeted_corrections_20261112": {
+      "version": "0.2.1",
+      "base_version": "0.2.0",
+      "core_reader_questions": 7,
+      "literal_operations": 3,
+      "literal_codepoints_replaced": 3,
+      "blinded": false,
+      "public_decision_table": "TARGETED-CORRECTIONS.json",
+      "summary": "Selected reader questions were checked against the fixed source images with candidates already known. This round is not a new full-book independent collation. Previous whole-book AI reading history remains separately preserved.",
+      "limits": "No human double collation, expert review or measured accuracy. Detailed programs, prompts, crops and complete private working records are excluded."
+    },
+    "targeted_reader_correction_round": {
+      "base_version": "0.2.0",
+      "role": "nonblind targeted source review",
+      "human_double_collation": "not-performed",
+      "expert_review": "not-performed",
+      "changed_units": [
+        "p10-c02",
+        "p12-c06",
+        "p31-c01"
+      ],
+      "candidate_not_published": true,
+      "remaining_reader_proposals_unresolved": true
     }
   },
   "position_convention": "疑讀採單位內Unicode碼點0起算半開區間[start,end)；bbox為null；pXX為物理面，公開page_id的fXX為官方影像幀。原稿order由units陣列順序表示。",
@@ -4769,7 +4794,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "疽、大腎囊、內外痔、補嘴、救食牛洋烟、諸症、或用刀",
+          "text": "疽、大腎囊、內外痔、補嘴、救食生洋烟、諸症、或用刀",
           "bbox": null
         },
         {
@@ -4927,20 +4952,6 @@
       ],
       "uncertainties": [
         {
-          "id": "unc-0013",
-          "unit_id": "p10-c02",
-          "start": 15,
-          "end": 16,
-          "surface": "牛",
-          "reason": "洋前字底部有淡斷橫痕，牛的兩橫或生的第三橫未可穩定排除；保留初錄，撤回本輪範圍內將此字當作已解的確定度，前輪固定報告不改。",
-          "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
-          "extent": "known",
-          "candidates": [
-            "牛",
-            "生"
-          ]
-        },
-        {
           "id": "unc-0014",
           "unit_id": "p10-running-title",
           "start": 0,
@@ -5030,7 +5041,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "習、院中醫理精通、各有專長者、多則二十八、至少",
+          "text": "習、院中醫理精通、各有專長者、多則二十人、至少",
           "bbox": null
         },
         {
@@ -6853,7 +6864,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "柯姓漳州人、年二十八歲、打錫錆爲業、自少時上",
+          "text": "柯姓漳州人、年二十八歲、打錫錯爲業、自少時上",
           "bbox": null
         },
         {

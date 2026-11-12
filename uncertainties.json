@@ -1,6 +1,6 @@
 {
   "dataset_id": "bodleian-sinica2017",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "coordinate_system": "Unicode code points; zero-based half-open [start,end); unknown extent has null coordinates and surface",
   "items": [
     {
@@ -178,21 +178,6 @@
       "candidates": [
         "醫館畧述",
         "醫舘畧述"
-      ]
-    },
-    {
-      "page_id": "f07",
-      "id": "unc-0013",
-      "unit_id": "p10-c02",
-      "start": 15,
-      "end": 16,
-      "surface": "牛",
-      "reason": "洋前字底部有淡斷橫痕，牛的兩橫或生的第三橫未可穩定排除；保留初錄，撤回本輪範圍內將此字當作已解的確定度，前輪固定報告不改。",
-      "cause": "unresolved-after-independent-AI-reading-and-nonblind-source-review",
-      "extent": "known",
-      "candidates": [
-        "牛",
-        "生"
       ]
     },
     {
